@@ -1,0 +1,10 @@
+# Site settings
+title: Today I Learn
+#tag_text: Blog
+description: Write what I have been learned.
+
+# Build settings
+markdown: kramdown
+exclude: ["README.md"]
+sass:
+  style: compressed
