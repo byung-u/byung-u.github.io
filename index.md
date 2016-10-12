@@ -338,6 +338,10 @@ Go to section
 * [패킷 전송](#packet-travel)
 * [네트워크 Stack 이해하기](http://d2.naver.com/helloworld/47667)
 * [TCP 커널 파라메터 이야기](http://meetup.toast.com/posts/53)
+* [SYN Port Flooding(Centos 7.2)](https://access.redhat.com/solutions/30453)
+  * 19090 port에 5500개 이상의 TCP연결이 ESTABLISHED 된 상태에서 이를 초과하자 연결 자체가 안 되는 현상 발생
+  * 로그는 `/var/log/messages`에 기록되었고, `Possible SYN flooding on port 19090` 대략 이런..
+  * 해결 방안은 위의 링크를 따라가면 나와있음 
 
 ## OSI layers 
 * 계층 7 구성
@@ -562,6 +566,15 @@ example) http://$IP/zabbix
 http://ec2-52-xx-xxx-149.ap-northeast-2.compute.amazonaws.com/zabbix
 ```
 
+[8] Admin password change
+
+```
+# mysql -u root -p
+mysql> use zabbix;
+
+mysql> update zabbix.users set passwd=md5('passw0rd') where alias='Admin';
+
+```
 
 ## Eclim Install
 * [참고](http://eclim.org/install.html)
