@@ -1,10 +1,11 @@
-# Site settings
-title: Today I Learn
-#tag_text: Blog
-description: Write what I have been learned.
+title: OMGZ
+description: Write some good informations
+show_downloads: true
+google_analytics:
+theme: 
 
-# Build settings
-markdown: kramdown
-exclude: ["README.md"]
-sass:
-  style: compressed
+site:
+  github:
+    owner_name: Byungwoo Jeon
+    repository_name: byung-u
+    repository_url: https://github.com/byung-u
