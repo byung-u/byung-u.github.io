@@ -4,8 +4,7 @@ show_downloads: true
 google_analytics:
 theme: 
 
-site:
-  github:
-    owner_name: Byungwoo Jeon
-    repository_name: byung-u
-    repository_url: https://github.com/byung-u
+github: https://github.com/byung-u
+  owner_name: Byungwoo Jeon
+  repository_name: byung-u
+  repository_url: https://github.com/byung-u
