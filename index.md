@@ -2,8 +2,9 @@
 layout: default
 ---
 
-[TIL](til)
+* 글
+  * [TIL](til)
+  * [Mark down usage](theme_mark_down_usage)
 
-[Mark down usage](theme_mark_down_usage)
-
-[한글이 안 써져요](can_not_type_hangle)
+* 기능
+  * [한글이 안 써져요](hangul_not_working)
