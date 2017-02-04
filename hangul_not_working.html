@@ -37,12 +37,18 @@
       <section id="main_content" class="inner">
 
 <h1>한글이 안 써져요.</h1>
-<p>한영키가 안 먹어서 한글을 쓸수 없는 경우 (최대 입력 1024)</p>
+<ul>
+<li>한영 키가 안 먹어서 한글을 쓸 수 없는 경우</li>
+<li>입력 제한: ASCII 입력 가능, MAX: 10240 byte</li>
+</ul>
 
-<textarea class="convertInput" cols="64" rows="16" wrap=physical type="text" size="20" maxlength="1024" onKeypress="auto_size(this, this.size, 1024)" onkeydown="fn_press_han(this);" id="input"></textarea><br>
-<button class="convertBtn" onclick="input()">입력받기</button> <br>
-<p>결과 출력</p>
-<textarea class="convertInput" id="output" cols="64" rows="16"></textarea>
+<textarea class="convertInput" wrap=physical type="text" maxlength="10240" onKeypress="auto_size(this, this.size, 10240)" onkeydown="fn_press_han(this);" id="input"></textarea><br>
+<button class="convertBtn" onclick="input()">입력 완료</button> <br>
+<br>
+<ul>
+<li>결과 출력</li>
+</ul>
+<textarea class="convertInput" id="output"></textarea>
 <!-- <button onclick="output()">출력하기</button> -->
 <script src="hangul.js" type="text/javascript"> </script>
 <script type="text/javascript">
@@ -195,12 +201,17 @@ function convert_en_to_kr(){
 
 <style>
   .convertInput{
+    width: 100%;
+    height: 150px;
     padding: 20px;
     cursor: pointer;
+    border:1px solid #040404;
+    display:block;
   }
   .convertBtn{
     padding: 10px;
-    width: 70%;
+    width: 100%;
+    font:12px Malgun Gothic;
     background-color: #FFD700;
     cursor: pointer;
   }
