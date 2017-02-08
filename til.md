@@ -37,6 +37,7 @@ layout: default
   $ docker-machine start
   $ docker-machine ssh default
   ```
+<br />
   * Docker 이미지 시작 
 
   ```
@@ -44,18 +45,21 @@ layout: default
   $ docker attach $ContainerID
   ```
 
+<br />
   * Docker 추가 
 
   ```
   $ docker run -i -t --name new_centos centos /bin/bash
   ```
 
+<br />
   * Docker Rename
 
   ```
   $ docker rename OLD_NAME NEW_NAME
   ```
 
+<br />
 ## Git
 * Pull request
   * master 계정이 아닌 다른 계정으로 login 하여 수행
@@ -67,12 +71,14 @@ layout: default
  git push origin pr_test
 ```
 
+<br />
 * branch에서 origin merge 하기
 
 ```
 git merge origin/master
 ```
 
+<br />
 * repository merge
 
 merge `project-a` into `project-b`:
@@ -85,7 +91,7 @@ git merge project-a/master # or whichever branch you want to merge
 git remote remove project-a
 ```
 
-
+<br />
 ## Gof Design Patterns
 * Gang of Four 23 design patterns
 
@@ -129,6 +135,7 @@ An error occurred while installing nokogiri (1.6.8), and Bundler cannot continue
 Make sure that `gem install nokogiri -v '1.6.8'` succeeds before bundling.
 ```
 
+<br />
   * [nokogiri](http://www.nokogiri.org/tutorials/installing_nokogiri.html#mac_os_x)  설명 확인 후 해결
 
 OLD
@@ -136,12 +143,13 @@ OLD
  bundle config build.nokogiri --use-system-libraries
  bundle install
 ```
-NEW (http://stackoverflow.com/questions/40038953/installing-nokogiri-on-mac-os-sierra-10-12)
+<br />
+[NEW](http://stackoverflow.com/questions/40038953/installing-nokogiri-on-mac-os-sierra-10-12)
 ```
  gem install nokogiri -v 1.6.8.1 -- --use-system-libraries=true
 --with-xml2-include=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/libxml2
 ```
-
+<br />
 ## Java Install
 * [pinpoint](https://github.com/naver/pinpoint) 해보려다가 Java 6,7,8 모두 필요해서 설치하게 됨 ([설치 참고](https://www.digitalocean.com/community/tutorials/how-to-install-java-on-centos-and-fedora))
 * JAVA 7 예시, centos라서 yum 사용 
@@ -184,6 +192,7 @@ useradd nfv -m -s /bin/csh   // chsh로 shell 변경 가능
 passwd nfv
 ```
 
+<br />
 * __snmpwalk__ 정보 가져오기 
 
 ```c
@@ -196,10 +205,12 @@ snmpwalk -v 2c -c public -m ALL 114.207.73.213:35023 .1.3.6.1.4.1.11065.10038.1.
 snmpwalk 114.207.73.213:35023 -v 2 -c public 1.3.6.1.4.1.11065.10038.1.2.3
 ```
 
+<br />
 * __strace__ 명령으로 쓰레드 구분해서 파일에 덤프
 
 `strace -p[PID] -ttTf -o [file name]`
 
+<br />
 * Make 수행 후 error, warning 파일에 redirection 하기 ([stack overflow 참고](http://stackoverflow.com/questions/16350579/redirecting-standard-error-to-file-and-leaving-standard-output-to-screen-when-la))
 
 `make | & tee output.txt`
@@ -214,6 +225,7 @@ snmpwalk 114.207.73.213:35023 -v 2 -c public 1.3.6.1.4.1.11065.10038.1.2.3
 # ln -sf /usr/share/zoneinfo/Asia/Seoul /etc/localtime
 ```
 
+<br />
 * sudoer 추가하기
 
 ```
@@ -226,7 +238,9 @@ jeon    ALL=(ALL)       ALL     ; <-- 추가
 
 ```
 
+<br />
 * vim에서 newline 추가하기
+
 ```
 # ex) 간다. 온다. 다시간다.
 # 마침표 뒤에 개행문자를 넣고 싶다.
@@ -239,6 +253,7 @@ jeon    ALL=(ALL)       ALL     ; <-- 추가
 # ^M입력은 <CLTR-V><Enter>를 누른다.
 ```
 
+<br />
 ## Find
 * 비어있는 디렉토리 찾기
 
@@ -275,6 +290,7 @@ cd /var/log/sa
 sar -r -f sa26
 ```
 
+<br />
 ## Markdown
 * [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 * 1 페이지 안에서 링크 생성하기 ([stack overflow 참고](http://stackoverflow.com/questions/6695439/how-do-you-create-link-to-a-named-anchor-in-multimarkdown))
@@ -289,6 +305,7 @@ Go to section
 ### Hello World
 ## New section
 ```
+<br />
 * 이미지에 대한 캡션 삽입 ([stack overflow 참고](http://stackoverflow.com/questions/19331362/using-an-image-caption-in-markdown-jekyll))
 
 ```html
@@ -307,6 +324,7 @@ Go to section
 
 ```
 
+<br />
 ## Java
 * static 키워드 ([tistory blog](http://rockdrumy.tistory.com/214))
   * 안 바뀜 -> 공통 사용 -> 메모리 절약
@@ -400,6 +418,7 @@ mysql>  select * from test;
 
 ```
 
+<br />
 ## MySQL Query
 * 테이블이 사용하고 있는 data 크기 및 engine 정보 가져오기 ([stack overflow 참고](http://stackoverflow.com/questions/9620198/how-to-get-the-sizes-of-the-tables-of-a-mysql-database))
 
@@ -412,6 +431,7 @@ FROM information_schema.TABLES
 WHERE table_schema ="$TABLE_NAME";
 ```
 
+<br />
 * `*.csv` 엑셀파일 import ([stack overflow 참고](http://stackoverflow.com/questions/11077801/import-csv-to-mysql-table))
 
 ```sql
@@ -424,17 +444,20 @@ Query OK, 2546 rows affected, 21421 warnings (0.12 sec)
     Records: 2546  Deleted: 0  Skipped: 0  Warnings: 21421
 ```
 
+<br />
 * 현재 실행 중인 쿼리 조회 ([stack overflow 참고](http://stackoverflow.com/questions/16571416/how-can-i-get-a-full-list-of-all-queries-currently-running-on-my-mysql-server))
 
 ```sql
 mysql> SHOW FULL PROCESSLIST;
 ```
 
+<br />
 * 아이템이 없는 항목 찾기
 ```sql
 SELECT DISTINCT server_id FROM ALARM WHERE (SELECT COUNT(*) FROM ALARM) NOT IN (0) ORDER BY server_id;
 ```
 
+<br />
 ## Pylucene Install
 * [Apache Lucene](https://lucene.apache.org/pylucene/install.html)에서 시키는 대로 하면 됨 (pylucene-4.10.1-1)
  * [JCC](http://jcc.readthedocs.io/en/latest/) 사용
