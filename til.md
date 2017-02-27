@@ -250,7 +250,9 @@ jeon    ALL=(ALL)       ALL     ; <-- 추가
 # 다시간다.
 
 :%s/\. /\.^M/g
-# ^M입력은 <CLTR-V><Enter>를 누른다.
+
+- ^M입력은 `<CLTR-V><Enter>`를 누른다.
+
 ```
 
 <br />
