@@ -93,6 +93,13 @@ git remote remove project-a
 ```
 
 <br />
+* tagging
+```
+  $ git tag 0.2.0 -m "1st tagging so that I can put this on PyPI"
+  $ git push --tags origin
+```
+
+<br />
 ## Gof Design Patterns
 * Gang of Four 23 design patterns
 
