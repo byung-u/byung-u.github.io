@@ -13,6 +13,7 @@ layout: default
   * [I/O](#input-output)
   * [Java](#java)
   * [Markdown 문법](#markdown)
+  * [Python](#python)
   * [SIP](#sip)
   * [TCP/IP](#tcp-ip)
   * [Unix 명령어](#command)
@@ -324,6 +325,28 @@ Go to section
     <em>image_caption</em>
 </p>
 
+```
+
+<br />
+## Python
+* PyPI upload
+  * set ~/.pypirc (TODO use [distutils])
+```
+[pypirc]
+servers = pypitest
+
+[server-login]
+username=$USER_ID
+password=$PASSWORD
+```
+
+  * Regist PyPI
+```
+# Fail to use.
+  $ python setup.py register -r pypitest
+
+# Upload directly
+  $ python setup.py sdist upload -r pypitest
 ```
 
 <br />
