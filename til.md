@@ -705,7 +705,7 @@ curl https://omnitruck.chef.io/install.sh | sudo bash -s -- -P chefdk -c stable 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
-* 각종 plug-in 설치하기 쉬운 vim-plug 설치([멋지다.. vim 신](https://github.com/junegunn))
+* 각종 plug-in 설치하기 쉬운 vim-plug 설치 (멋지다.. [vim 신](https://github.com/junegunn))
 
 ```
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
