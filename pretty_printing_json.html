@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <meta name="description" content="OMGZ : Write some good informations">
+
+    <title>OMGZ</title>
+  </head>
+
+  <body>
+    <h2 id="project_tagline">Json 파일에 개행문자가 전부 제거되어 보기에 어려운 경우 사용</h2>
+
+    <table>
+      <tr>
+        <th> <h3>Input</h3> </th>
+        <th> <h3> </h3> </th>
+        <th> <h3>Output</h3> </th>
+      </tr>
+      <tr>
+        <td> <textarea rows="60" cols="30" class="convertInput" wrap=physical type="text" id="input"></textarea> </td>
+        <td> <button class="convertBtn" onclick="input()">▶</button> </td>
+        <td> <textarea rows="60" cols="60" class="convertInput" id="output"></textarea> </td>
+      </tr>
+    </table>
+  <script type="text/javascript">
+
+
+var temp; 
+
+function input(){
+  var input = document.getElementById("input").value; 
+  temp = input;
+  output()
+}
+
+function output(){
+  var jsonString = temp;
+  var jsonPretty = JSON.stringify(JSON.parse(jsonString), null, 4);
+  document.getElementById("output").value = jsonPretty;
+  //document.getElementById("output").value = temp;
+}
+
+function auto_size(fname, fsize, max_size){
+  if (fname.size < max_size) {
+    fname.size = fname.size + 1
+  }
+}
+      </script>
+
+<style>
+  .convertInput{
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+    cursor: pointer;
+    border:1px solid #040404;
+    display:block;
+  }
+  .convertBtn{
+    width: 80%;
+    height: 40%;
+    padding: 12px;
+    font:10px Malgun Gothic;
+    background-color: #FFD700;
+    cursor: pointer;
+  }
+</style>
+
+<br> <br> <br> <br> <br>
+      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <!--  -->
+      <ins class="adsbygoogle"
+          style="display:inline-block;width:336px;height:280px"
+          data-ad-client="ca-pub-2477248594987452"
+          data-ad-slot="3141736664"></ins>
+      <script>
+           (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+  </body>
+</html>
