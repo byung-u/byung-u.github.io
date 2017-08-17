@@ -2,8 +2,16 @@
 layout: default
 ---
 
-## TIL (Today I Learned)
+## Today I Learned 
 > 이해가 잘 안되고, 자주 까먹는 내용을 정리
+
+* Frequently
+  * [Zepplin PR](#zepplin)
+
+* 기타
+  * [Mark down usage](theme_mark_down_usage)
+  * [Pretty Json](pretty_printing_json)
+  * [한글이 안 써져요](hangul_not_working)
 
 * 정리
   * [Database](#database)
@@ -19,6 +27,7 @@ layout: default
   * [Unix 명령어](#command)
   * [간단 Issues](#issues)
   * [기본 개념](#basic-programming)
+
 * 설치
   * [Git Page](#git-page) on Mac (OS X El Capitan 10.11.6)
   * [Java](#java-install) on Centos 7
@@ -29,10 +38,37 @@ layout: default
   * [Maria db](#mariadb-install) on Redhat 7.2
   * [간단 설치](#simple-install) 
 
-* 기타
-  * [Mark down usage](theme_mark_down_usage)
-  * [한글이 안 써져요](hangul_not_working)
-  * [Pretty Json](pretty_printing_json)
+
+## Zepplin
+
+* Pull request 순서
+
+  1. Download latest version
+```
+  $ git pull upstream master
+```
+  2. Create new branch
+```
+  $ git checkout -b feature/new-xxx-xxx
+```
+  3. Commit
+```
+  $ git add $MODIFIED_FILES
+  $ git commit -m "feature: xxx"
+```
+  4. Push
+```
+  $ git push origin HEAD
+```
+  5. Pull Request
+```
+  Use web browser move to http://www.github.com/apache/zeppelin
+  click PR
+```
+  6. Write detail info about PR
+```
+  Check Jenkins, Travis-ci
+```
 
 
 ## Docker
