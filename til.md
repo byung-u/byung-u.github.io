@@ -29,6 +29,12 @@ layout: default
   * [Maria db](#mariadb-install) on Redhat 7.2
   * [간단 설치](#simple-install) 
 
+* 기타
+  * [Mark down usage](theme_mark_down_usage)
+  * [한글이 안 써져요](hangul_not_working)
+  * [Pretty Json](pretty_printing_json)
+
+
 ## Docker
 * [한글 문서 모음](http://documents.docker.co.kr)
 * 매번 까먹는 명령
