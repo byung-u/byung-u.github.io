@@ -179,31 +179,34 @@ merge `project-a` into `project-b`:
 
 ## Git Page
 
-1. 페이지 생성 ([pages.github.com](https://pages.github.com/#setup-in-desktop))
+* 페이지 생성 ([pages.github.com](https://pages.github.com/#setup-in-desktop))
 
-2. 테마 설정 ([jekyll](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/) 사용)
+* 테마 설정 ([jekyll](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/) 사용)
 
 * 설치 중 ERROR
-
 ```
 An error occurred while installing nokogiri (1.6.8), and Bundler cannot continue.
 Make sure that `gem install nokogiri -v '1.6.8'` succeeds before bundling.
 ```
+* [nokogiri](http://www.nokogiri.org/tutorials/installing_nokogiri.html#mac_os_x)  설명 확인 후 해결
 
-<br />
-  * [nokogiri](http://www.nokogiri.org/tutorials/installing_nokogiri.html#mac_os_x)  설명 확인 후 해결
-
-OLD
+  * OLD
 ```
  bundle config build.nokogiri --use-system-libraries
  bundle install
 ```
-<br />
-[NEW](http://stackoverflow.com/questions/40038953/installing-nokogiri-on-mac-os-sierra-10-12)
+  * [NEW](http://stackoverflow.com/questions/40038953/installing-nokogiri-on-mac-os-sierra-10-12)
 ```
  gem install nokogiri -v 1.6.8.1 -- --use-system-libraries=true
 --with-xml2-include=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/libxml2
 ```
+<br />
+* Jekyll server run
+
+```
+  $ bundle exec jekyll serve
+```
+
 <br />
 ## Java Install
 * [pinpoint](https://github.com/naver/pinpoint) 해보려다가 Java 6,7,8 모두 필요해서 설치하게 됨 ([설치 참고](https://www.digitalocean.com/community/tutorials/how-to-install-java-on-centos-and-fedora))
