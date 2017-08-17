@@ -354,7 +354,9 @@ username=$USER_ID
 password=$PASSWORD
 ```
 
-  * Regist PyPI
+<br />
+* Regist PyPI
+
 ```
 # Fail to use.
   $ python setup.py register -r pypitest
@@ -492,8 +494,9 @@ mysql> SHOW FULL PROCESSLIST;
 
 <br />
 * 아이템이 없는 항목 찾기
+
 ```sql
-SELECT DISTINCT server_id FROM ALARM WHERE (SELECT COUNT(*) FROM ALARM) NOT IN (0) ORDER BY server_id;
+mysql> SELECT DISTINCT server_id FROM ALARM WHERE (SELECT COUNT(*) FROM ALARM) NOT IN (0) ORDER BY server_id;
 ```
 
 <br />
@@ -509,72 +512,83 @@ SELECT DISTINCT server_id FROM ALARM WHERE (SELECT COUNT(*) FROM ALARM) NOT IN (
 
 [1] Install apache
 
-```sudo yum install httpd httpd-devel -y```
+```
+  $ sudo yum install httpd httpd-devel -y
+```
 
 [2] Install Mysql
 
-```sudo yum install mysql mysql-server -y
-sudo yum install mariadb-server -y
+```
+  $ sudo yum install mysql mysql-server -y
+  $ sudo yum install mariadb-server -y
 ```
 
 [3] Install PHP
 
-```sudo yum install php-mysql php-pear php-common php-gd php-devel php php-mbstring php-cli -y```
+```
+  $ sudo yum install php-mysql php-pear php-common php-gd php-devel php php-mbstring php-cli -y
+  ```
 
 [4] Install PHP-SNMP
 
 [FAILED] 
-```sudo yum install php-snmp -y```
+```
+  $ sudo yum install php-snmp -y
+```
 
 [5] Install NET-SNMP
 
 ```
-sudo yum install net-snmp-utils net-snmp-libs -y
-sudo yum install net-snmp -y
+  $ sudo yum install net-snmp-utils net-snmp-libs -y
+  $ sudo yum install net-snmp -y
 ```
 
 [6] Install RRDTool
 
-```sudo yum install rrdtool -y```
+```
+  $ sudo yum install rrdtool -y
+```
 
 [7] start daemon
 
 ```
-sudo systemctl start httpd
-sudo systemctl start mariadb.service
-sudo systemctl start snmpd
+  $ sudo systemctl start httpd
+  $ sudo systemctl start mariadb.service
+  $ sudo systemctl start snmpd
 ```
 
 [8] install cacti
 download tar.gz from http://www.cacti.net/download_cacti.php
 
-```tar xzvf cacti-version.tar.gz```
+```
+  $ tar xzvf cacti-version.tar.gz
+```
 
 mysql root password setting
 create db table
 
 ```
--> MariaDB [cacti]> source /home/ec2-user/cacti-0.8.8h/cacti.sql
-mysql> GRANT ALL ON cacti.* TO cactiuser@localhost IDENTIFIED BY 'somepassword';
-mysql> flush privileges;
+  # MariaDB [cacti]> source /home/ec2-user/cacti-0.8.8h/cacti.sql
+  mysql> GRANT ALL ON cacti.* TO cactiuser@localhost IDENTIFIED BY 'somepassword';
+  mysql> flush privileges;
 ```
 
 [9] Edit include/config.php
 
 ```
-$database_type = "mysql";
-$database_default = "cacti";
-$database_hostname = "localhost";
-$database_username = "cactiuser";   # mysql login ID
-$database_password = "cacti";       #             PW
+  $database_type = "mysql";
+  $database_default = "cacti";
+  $database_hostname = "localhost";
+  $database_username = "cactiuser";   # mysql login ID
+  $database_password = "cacti";       #             PW
 ```
 
 [10] crontab에 등록하여 rra 생성
 
 ```
-압축 해제한 cacti-xxx 를 /var/www/html/cacti로 이동하고 crontab 등록한다.
-sudo crontab -e
-*/5 * * * * php /var/www/html/cacti/poller.php > /dev/null 2>&1
+  압축 해제한 cacti-xxx 를 /var/www/html/cacti로 이동하고 crontab 등록한다.
+  $ sudo crontab -e
+  */5 * * * * php /var/www/html/cacti/poller.php > /dev/null 2>&1
 ```
 
 [11] website 접속
