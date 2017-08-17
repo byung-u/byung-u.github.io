@@ -2,7 +2,6 @@
 layout: default
 ---
 
-## Today I Learned 
 > 이해가 잘 안되고, 자주 까먹는 내용을 정리
 
 * Frequently
