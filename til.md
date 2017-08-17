@@ -66,17 +66,17 @@ layout: default
   * master 계정이 아닌 다른 계정으로 login 하여 수행
 
 ```
- git branch pr_test
- git checkout pr_test
- git commit Array.java
- git push origin pr_test
+  $ git branch pr_test
+  $ git checkout pr_test
+  $ git commit Array.java
+  $ git push origin pr_test
 ```
 
 <br />
 * branch에서 origin merge 하기
 
 ```
-git merge origin/master
+  $ git merge origin/master
 ```
 
 <br />
@@ -85,19 +85,25 @@ git merge origin/master
 merge `project-a` into `project-b`:
 
 ```
-cd path/to/project-b
-git remote add project-a path/to/project-a
-git fetch project-a
-git merge project-a/master # or whichever branch you want to merge
-git remote remove project-a
+  $ cd path/to/project-b
+  $ git remote add project-a path/to/project-a
+  $ git fetch project-a
+  $ git merge project-a/master # or whichever branch you want to merge
+  $ git remote remove project-a
 ```
 
 <br />
 * tagging
+
 ```
   $ git tag 0.2.0 -m "1st tagging so that I can put this on PyPI"
   $ git push --tags origin
 ```
+
+<br />
+* rebase
+  * 사전적의미: 새로운 평가 기준을 설정하다
+
 
 <br />
 ## Gof Design Patterns
