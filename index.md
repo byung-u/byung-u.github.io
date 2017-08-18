@@ -44,6 +44,7 @@ layout: default
 
   1. Download latest version
 ```
+  $ git remote add upstream https://github.com/apache/zeppelin.git
   $ git pull upstream master
 ```
   2. Create new branch
