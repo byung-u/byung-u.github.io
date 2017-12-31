@@ -26,6 +26,7 @@ layout: default
   * [Unix 명령어](#command)
   * [간단 Issues](#issues)
   * [기본 개념](#basic-programming)
+  * [회고](#look-back)
 
 * 설치
   * [Git Page](#git-page) on Mac (OS X El Capitan 10.11.6)
@@ -837,6 +838,11 @@ int array[2][3][4] =
 };
 ```
 
+## Look Back
+  * [2017](look_back_2017)
+
+
+
 ## Variable Type
 * `<climits> (limits.h)` [c++ reference](http://www.cplusplus.com/reference/climits/)
 * 부동 소수점 수 ([MSDN 설명](https://msdn.microsoft.com/ko-kr/library/hd7199ke.aspx))
@@ -846,6 +852,8 @@ int array[2][3][4] =
 :------:| :--------: | :----: | :------: |  :------: 
 float | 6 ~ 7  | 4  | 8 bit | 23 bit
 double | 15 ~ 16  | 8 | 11 bit | 52 bit
+
+
 
 ## 동적언어 / 정적언어
 
