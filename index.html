@@ -1,0 +1,53 @@
+---
+layout: home
+---
+
+<div class="home">
+    <div>
+		<a href="https://johngrib.github.io">기계인간 John Grib</a>
+		님의 블로그를 보다가 뭔가 빠르고 멋스러워서 이것저것 보다가 마침
+		<a href="https://github.com/johngrib/johngrib-jekyll-skeleton">블로그 뼈대</a>
+		를 제공해주셔서 그걸로 시작.
+    </div>
+    <div class="contact">
+{% if site.github_username %}
+        <a href="https://github.com/{{ site.github_username }}">GitHub</a>
+{% endif %}
+{% if site.twitter_username %}
+        <a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a>
+{% endif %}
+{% if site.email %}
+        <a href="mailto:{{ site.email }}">Email</a>
+{% endif %}
+    </div>
+</div>
+<div>
+    <H3>최근 변경된 문서</H3>
+    <ul class="post-list">
+{% assign documents = site.wiki | sort: 'updated' | reverse %}
+{% for doc in documents limit: 10 %}
+    {% if doc.public == true and doc.title != 'wiki index'%}
+        <li>
+            <div>
+                <a class="post-link" href="{{ doc.url | prepend: site.baseurl }}">
+                    <div class="post-meta">
+                        {{ doc.updated | date: "%Y.%m.%d" }}
+                        -
+                        {{ doc.title }}
+                    </div>
+                    <div class="post-excerpt">{{ doc.summary }}</div>
+
+                    <ul class="tag-list">
+        {% for tag in doc.tags %}
+                        <li class="post-tag">
+                            <a href="/tag/#{{tag}}" >#{{tag}}</a>
+                        </li>
+        {% endfor %}
+                    </ul>
+                </a>
+            </div>
+        </li>
+    {% endif %}
+{% endfor %}
+    </ul>
+</div>
