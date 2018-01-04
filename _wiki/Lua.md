@@ -3,7 +3,7 @@ layout  : wiki
 title   : Lua
 summary : Powerful, efficient, lightweight, embeddable scripting language
 date    : 2017-12-03 15:01:36 +0900
-updated : 2018-01-05 01:30:24 +0900
+updated : 2018-01-05 01:31:01 +0900
 tags    : language lua
 toc     : true
 public  : true
@@ -441,7 +441,7 @@ function LoudDog:new()
 end
 ```
 
-### 모듈로 사용
+### 모듈 사용
 
 ```lua
 ----------------------------------------------------
