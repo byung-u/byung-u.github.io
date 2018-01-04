@@ -1,0 +1,21 @@
+vimwiki:
+    type: wiki
+    title: vimwiki
+    summary: 'vimwiki 사용법'
+    parent: null
+    url: /wiki/vimwiki
+    updated: '2018-01-03 16:30:36 +0900'
+index:
+    type: wiki
+    title: 'wiki index'
+    summary: null
+    parent: null
+    url: /wiki/index
+    updated: '2018-01-03 16:26:24 +0900'
+default-post:
+    type: blog
+    title: 'sample title'
+    summary: 'sample summary'
+    parent: null
+    url: /blog/2017/04/02/default-post
+    updated: '2017-04-02 12:15:32 +0900'

@@ -1,0 +1,59 @@
+---
+layout: document
+---
+
+{% assign thisName = page.id | remove: '/wiki/' %}
+
+<div class="post">
+    <header class="post-header">
+        <h1 class="post-title">{{ page.title }}</h1>
+        <p class="edit-date"><a href="{{ site.blame }}/{{ thisName }}.md" target="_blank">updated: {{ page.updated | date: '%Y.%m.%d' }}</a></p>
+
+{% if page.parent %}
+
+    {% assign plist = page.parent | split: "," %}
+    {% assign loop = "1234567890" | split: "" %}
+    {% assign pid = page.parent %}
+    {% for item in loop %}
+
+        {% if site.data.pageMap[pid] %}
+            {% assign ancestor = site.data.pageMap[pid] %}
+            {% assign pid = ancestor.parent %}
+            {% assign plist = plist | push: pid %}
+        {% endif %}
+
+        {% if pid == 'index' %}
+            {% break %}
+        {% endif %}
+    {% endfor %}
+
+    {% assign plist = plist | reverse %}
+        <p> 상위 문서:
+    {% for item in plist %}
+        {% assign p = site.data.pageMap[item] %}
+            <a href="{{ p.url }}">{{ p.title }}</a>{% unless forloop.last %} - {% endunless %}
+    {% endfor %}
+        </p>
+{% endif %}
+
+{% if page.tags %}
+        <div class="post-tags">
+            <div>
+    {% assign tags = page.tags | sort %}
+    {% for tag in tags %}
+                <a href="/tag/#{{tag|slugize}}">#{{tag}}</a>{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+            </div>
+        </div>
+{% endif %}
+
+{% if page.summary %}
+        <h2>{{ page.summary }}</h2>
+{% endif %}
+
+    </header>
+    <article class="post-content">
+        {{ content }}
+    </article>
+</div>
+{% include createLink.html %}
