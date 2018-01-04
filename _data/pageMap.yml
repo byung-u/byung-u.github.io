@@ -1,3 +1,10 @@
+ThisBlog:
+    type: wiki
+    title: 'John grib님의 jekyll skeleton으로 내 블로그 꾸미기'
+    summary: 'jekyll skeleton 설정'
+    parent: index
+    url: /wiki/ThisBlog
+    updated: '2018-01-04 19:18:09 +0900'
 Lua:
     type: wiki
     title: Lua
@@ -5,13 +12,6 @@ Lua:
     parent: programming-language
     url: /wiki/Lua
     updated: '2018-01-04 18:59:49 +0900'
-ThisBlog:
-    type: wiki
-    title: 'John grib님의 jekyll skeleton으로 내 블로그 꾸미기'
-    summary: 'jekyll skeleton 설정'
-    parent: index
-    url: /wiki/ThisBlog
-    updated: '2018-01-04 16:34:41 +0900'
 'Programming Language':
     type: wiki
     title: '프로그래밍 언어'

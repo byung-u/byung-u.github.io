@@ -3,7 +3,7 @@ layout  : wiki
 title   : John grib님의 jekyll skeleton으로 내 블로그 꾸미기
 summary : jekyll skeleton 설정
 date    : 2018-01-04 14:46:05 +0900
-updated : 2018-01-04 16:34:41 +0900
+updated : 2018-01-04 19:18:09 +0900
 tags    : vimwiki johngrib naver google
 toc     : true
 public  : true
@@ -64,5 +64,33 @@ latex   : true
   var cx = '009589569786427844174:n5gsvy4rj58';
   ```
   - 검색엔진 새로 만들어서 `코드가져오기`로 가져와서 쓴다.
-
-
+<br /><br />
+* `start.sh` 실행하다가 에러 발생한 경우 (MacOS)
+  * `brew upgrade`를 수행했더니만 ruby가 업그레이드 되었다.
+  ```
+==> Upgrading ruby
+==> Downloading https://homebrew.bintray.com/bottles/ruby-2.5.0.high_sierra.bottle.tar.gz
+######################################################################## 100.0%
+==> Pouring ruby-2.5.0.high_sierra.bottle.tar.gz
+  ```
+  * 그 결과 `bundle install` 수행하니 다른 패키지들도 영향을 받는다.
+  ```
+Warning: the running version of Bundler (1.16.0) is older than the version that created the lockfile (1.16.1).
+We suggest you upgrade to the latest version of Bundler by running `gem install bundler`.
+  ```
+  * 그러더니 jekyll을 못 찾고 에러가 발생한다.
+  ```
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/rubygems/dependency.rb:319:in `to_specs': Could not find 'jekyll' (>= 0.a) among 15 total gem(s) (Gem::LoadError)
+Checked in 'GEM_PATH=/Users/byungwoo/.gem/ruby/2.3.0:/Library/Ruby/Gems/2.3.0:/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0', execute `gem env` for more information
+from /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/rubygems/dependency.rb:328:in `to_spec'
+from /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/rubygems/core_ext/kernel_gem.rb:65:in `gem'
+from /usr/local/bin/jekyll:25:in `<main>'
+  ```	
+  * 역시나 [이미 발생한 이슈](https://github.com/jekyll/jekyll/issues/1409)였었다. <br />
+  [Windows OS에서 해결한 사례](https://github.com/juthilo/run-jekyll-on-windows/issues/34#issuecomment-65752021)이지만, Mac OS에서도 유효함
+  ```
+$ gem sources --remove https://rubygems.org/
+$ gem sources -a http://rubygems.org/
+$ gem install jekyll
+  ```
+<br /><br />
