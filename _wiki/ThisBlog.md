@@ -3,7 +3,7 @@ layout  : wiki
 title   : John grib님의 jekyll skeleton으로 내 블로그 꾸미기
 summary : jekyll skeleton 설정
 date    : 2018-01-04 14:46:05 +0900
-updated : 2018-01-04 19:18:09 +0900
+updated : 2018-01-04 22:40:36 +0900
 tags    : vimwiki johngrib naver google
 toc     : true
 public  : true
@@ -14,9 +14,10 @@ latex   : true
 {:toc}
 
 ## 설명
+* 최소한의 노력으로 블로깅을 할 수 있는 방법에 관심이 많았는데 <span style="color:red">이건 정말 최고다.</span>
 * [johngrib-jekyll-skeleton](https://github.com/johngrib/johngrib-jekyll-skeleton)을
-단순히 [jJ]ohngrib 만 바꿔가지고는 몇몇 부분을 제대로 사용할 수 없어서 정리.
-* 최소한의 노력으로 블로깅을 할 수 있는 방법에 관심이 많았는데 써보니 완전 최고다.
+단순히 [jJ]ohngrib만 내가 사용하는 ID로 바꿔서 쓰려했으나 실패
+* 확인해서 맞춰줘야 할 것들을 찾아서 모아둠. 
 
 ## 참고링크
 * [vimwiki](https://github.com/vimwiki/vimwiki)
@@ -73,11 +74,12 @@ latex   : true
 ######################################################################## 100.0%
 ==> Pouring ruby-2.5.0.high_sierra.bottle.tar.gz
   ```
-  * 그 결과 `bundle install` 수행하니 다른 패키지들도 영향을 받는다.
+  * 그 결과 `bundle install` 수행하니 경고가 나온다. 일단 무시
   ```
 Warning: the running version of Bundler (1.16.0) is older than the version that created the lockfile (1.16.1).
 We suggest you upgrade to the latest version of Bundler by running `gem install bundler`.
   ```
+  
   * 그러더니 jekyll을 못 찾고 에러가 발생한다.
   ```
 /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/rubygems/dependency.rb:319:in `to_specs': Could not find 'jekyll' (>= 0.a) among 15 total gem(s) (Gem::LoadError)
@@ -94,3 +96,17 @@ $ gem sources -a http://rubygems.org/
 $ gem install jekyll
   ```
 <br /><br />
+  * 잘 되는가 싶었는데 `start.sh`을 수행하니 에러가 난다.
+  ```
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require': cannot load such file -- bundler (LoadError)
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+	from /Library/Ruby/Gems/2.3.0/gems/jekyll-3.7.0/lib/jekyll/plugin_manager.rb:48:in `require_from_bundler'
+	from /Library/Ruby/Gems/2.3.0/gems/jekyll-3.7.0/exe/jekyll:11:in `<top (required)>'
+	from /usr/local/bin/jekyll:22:in `load'
+	from /usr/local/bin/jekyll:22:in `<main>'
+  ```
+<br /><br />
+  * `bundler` 관련 경고를 무시해서 그런가 싶어서 warning에 나온대로 설치
+  ```
+  gem install bundler
+  ```
