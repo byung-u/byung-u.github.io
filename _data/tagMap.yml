@@ -1,1 +1,17 @@
-{}
+index:
+    - {fileName: index, updated: '2018-01-04 16:31:47 +0900'}
+language:
+    - {fileName: Lua, updated: '2018-01-04 18:59:49 +0900'}
+    - {fileName: 'Programming Language', updated: '2018-01-04 16:32:19 +0900'}
+lua:
+    - {fileName: Lua, updated: '2018-01-04 18:59:49 +0900'}
+programming:
+    - {fileName: 'Programming Language', updated: '2018-01-04 16:32:19 +0900'}
+vimwiki:
+    - {fileName: ThisBlog, updated: '2018-01-04 22:40:36 +0900'}
+johngrib:
+    - {fileName: ThisBlog, updated: '2018-01-04 22:40:36 +0900'}
+naver:
+    - {fileName: ThisBlog, updated: '2018-01-04 22:40:36 +0900'}
+google:
+    - {fileName: ThisBlog, updated: '2018-01-04 22:40:36 +0900'}
