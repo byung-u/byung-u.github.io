@@ -3,7 +3,7 @@ layout  : wiki
 title   : John grib님의 jekyll skeleton으로 내 블로그 꾸미기
 summary : jekyll skeleton 설정
 date    : 2018-01-04 14:46:05 +0900
-updated : 2018-01-04 22:40:36 +0900
+updated : 2018-01-05 01:28:47 +0900
 tags    : vimwiki johngrib naver google
 toc     : true
 public  : true
@@ -42,7 +42,7 @@ latex   : true
   
   - `[Enter]` 해당 링크로 넘어가고
   - `[Backspace]` 이전 링크로 되돌아가고
-  - 와.. 최고다.
+  - 와.. 이보다 더 편할수는 없겠다.
 <br /><br />
 * [yamljs](https://www.npmjs.com/package/yamljs)
   - start.sh 돌려보면 경고가 뜨는데 
@@ -74,12 +74,13 @@ latex   : true
 ######################################################################## 100.0%
 ==> Pouring ruby-2.5.0.high_sierra.bottle.tar.gz
   ```
+<br /><br />
   * 그 결과 `bundle install` 수행하니 경고가 나온다. 일단 무시
   ```
 Warning: the running version of Bundler (1.16.0) is older than the version that created the lockfile (1.16.1).
 We suggest you upgrade to the latest version of Bundler by running `gem install bundler`.
   ```
-  
+<br /><br />
   * 그러더니 jekyll을 못 찾고 에러가 발생한다.
   ```
 /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/rubygems/dependency.rb:319:in `to_specs': Could not find 'jekyll' (>= 0.a) among 15 total gem(s) (Gem::LoadError)

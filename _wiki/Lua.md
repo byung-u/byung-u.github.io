@@ -3,7 +3,7 @@ layout  : wiki
 title   : Lua
 summary : Powerful, efficient, lightweight, embeddable scripting language
 date    : 2017-12-03 15:01:36 +0900
-updated : 2018-01-04 18:59:49 +0900
+updated : 2018-01-05 01:30:24 +0900
 tags    : language lua
 toc     : true
 public  : true
@@ -142,7 +142,7 @@ ans = aBoolValue and 'yes' or 'no'  --> 'no'
 ### 함수
 
 
-#### 재귀함수
+#### Recursive
 
 ```lua
 ----------------------------------------------------
@@ -156,7 +156,7 @@ end
 
 #### Closure
 
-* [클로저](https://ko.wikipedia.org/wiki/클로저_(컴퓨터_프로그래밍))로 사용
+* [클로저](https://ko.wikipedia.org/wiki/클로저_(컴퓨터_프로그래밍))
 
 ```lua
 -- Closures and anonymous functions are ok:
@@ -283,7 +283,7 @@ end
 -- with consecutive integer keys, treated as a list.
 ```
 
-#### 메타테이블과 메타메쏘드 
+#### Metatables and metamethods
 
 ```lua
 ----------------------------------------------------
@@ -294,7 +294,7 @@ end
 -- how metatables support js-prototypey behavior.
 ```
 
-##### 메타테이블
+##### MetaTables
 ```lua
 f1 = {a = 1, b = 2}  -- Represents the fraction a/b.
 f2 = {a = 2, b = 3}
@@ -337,7 +337,7 @@ eatenBy = myFavs.animal  -- works! thanks, metatable
 -- for more customized lookups.
 ```
 
-##### 메타메쏘드 
+##### MetaMethods
 
 ```lua
 -- Values of __index,add, .. are called metamethods.
