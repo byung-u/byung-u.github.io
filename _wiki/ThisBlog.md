@@ -3,8 +3,8 @@ layout  : wiki
 title   : John grib님의 jekyll skeleton으로 내 블로그 꾸미기
 summary : jekyll skeleton 설정
 date    : 2018-01-04 14:46:05 +0900
-updated : 2018-01-04 16:27:11 +0900
-tags    :
+updated : 2018-01-04 16:34:41 +0900
+tags    : vimwiki johngrib naver google
 toc     : true
 public  : true
 parent  : index
