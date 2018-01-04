@@ -1,24 +1,17 @@
 ThisBlog:
     type: wiki
     title: 'John grib님의 jekyll skeleton으로 내 블로그 꾸미기'
-    summary: 'John grib님의 jekyll skeleton으로 내 블로그 꾸미기'
+    summary: 'jekyll skeleton 설정'
     parent: index
     url: /wiki/ThisBlog
-    updated: '2018-01-04 14:50:02 +0900'
+    updated: '2018-01-04 16:00:31 +0900'
 index:
     type: wiki
     title: 'wiki index'
     summary: null
     parent: null
     url: /wiki/index
-    updated: '2018-01-04 14:45:31 +0900'
-vimwiki:
-    type: wiki
-    title: vimwiki
-    summary: 'vimwiki 사용법'
-    parent: null
-    url: /wiki/vimwiki
-    updated: '2018-01-03 16:30:36 +0900'
+    updated: '2018-01-04 15:55:56 +0900'
 default-post:
     type: blog
     title: 'sample title'
