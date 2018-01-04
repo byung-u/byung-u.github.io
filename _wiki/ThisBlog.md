@@ -3,7 +3,7 @@ layout  : wiki
 title   : John grib님의 jekyll skeleton으로 내 블로그 꾸미기
 summary : jekyll skeleton 설정
 date    : 2018-01-04 14:46:05 +0900
-updated : 2018-01-04 16:25:57 +0900
+updated : 2018-01-04 16:27:11 +0900
 tags    :
 toc     : true
 public  : true
@@ -57,7 +57,7 @@ latex   : true
 <br /><br />
 * [google-analystics](https://analytics.google.com/analytics/web/#embed/report-home/a41925802w166845303p167173327/)
   - 기존에 adsense만 사용하고 있었는데 이걸 이제서야 사용하게 되었다..
-
+<br /><br />
 * [google-search engine](https://cse.google.com/cse/all) 설정할 때 수익창출 부분 설정 확인
   - `search.html` 파일을 열어보니 왠지 그대로 쓰면 안되게 생겼다.
   ```html
