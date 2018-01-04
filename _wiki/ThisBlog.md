@@ -3,7 +3,7 @@ layout  : wiki
 title   : John grib님의 jekyll skeleton으로 내 블로그 꾸미기
 summary : jekyll skeleton 설정
 date    : 2018-01-04 14:46:05 +0900
-updated : 2018-01-04 15:55:46 +0900
+updated : 2018-01-04 16:00:31 +0900
 tags    :
 toc     : true
 public  : true
@@ -20,7 +20,7 @@ latex   : true
 
 ## 참고링크
 * [vimwiki](https://github.com/vimwiki/vimwiki)
-  - `<Leader>ww`  수행하니까 index.md 파일이 열린다.
+  - vi를 열고 `<Leader>ww`  수행하니까 index.md 파일이 열린다.
   - 아무것도 처음에는 없다. 일단 따라해보니 아래 link에 커서를 두고 엔터치니 바로 생긴다.
 
   ```wiki
