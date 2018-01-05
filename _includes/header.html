@@ -8,4 +8,12 @@
 	<div>
 		<a class="site-title" href="/blog/">Blog</a>
 	</div>
+	<div>
+{% if site.email %}
+        <a class="site-title-right" href="mailto:{{ site.email }}">Email</a>
+{% endif %}
+{% if site.github_username %}
+        <a class="site-title-right" href="https://github.com/{{ site.github_username }}">GitHub</a>
+{% endif %}
+	</div>
 </header>
