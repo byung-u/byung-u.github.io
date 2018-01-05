@@ -3,7 +3,7 @@ layout  : wiki
 title   : Lua
 summary : Powerful, efficient, lightweight, embeddable scripting language
 date    : 2017-12-03 15:01:36 +0900
-updated : 2018-01-05 01:31:01 +0900
+updated : 2018-01-05 21:36:24 +0900
 tags    : language lua
 toc     : true
 public  : true
@@ -18,9 +18,9 @@ latex   : false
 * 라이선스: MIT license
 * 구현언어: ANSI C
 * 웹페이지:
-  * [https://www.lua.org/](https://www.lua.org/)
-  * [awesome-lua](https://github.com/LewisJEllis/awesome-lua)
-  * [매뉴얼](http://www.lua.org/manual/5.3/)
+  * [https://www.lua.org/](https://www.lua.org/){:target="_blank"}
+  * [awesome-lua](https://github.com/LewisJEllis/awesome-lua){:target="_blank"}
+  * [매뉴얼](http://www.lua.org/manual/5.3/){:target="_blank"}
 
 ## 설치
 * Mac
@@ -29,11 +29,10 @@ brew install lua
 ```
 
 ## 문법
-* [Lua in 15 minutes](http://tylerneylon.com/a/learn-lua/)
-* 좋은 말은 가져다 붙인것 같다. [빠르고, 강력하고 심플한...](https://www.lua.org/about.html)
-  * 얼마나 좋은지 한번 겪어봐야겠다. 
-  * 
-* 사용하는 [shebang](http://lua-users.org/lists/lua-l/2015-01/msg00633.html)은 `#!/usr/bin/env lua `
+* [Lua in 15 minutes](http://tylerneylon.com/a/learn-lua/){:target="_blank"}
+* 좋은 말은 가져다 붙인것 같습니다. [빠르고, 강력하고 심플한...](https://www.lua.org/about.html){:target="_blank"}
+  * 얼마나 좋은지 한번 겪어보고 싶어졌습니다.
+* 사용하는 [shebang](http://lua-users.org/lists/lua-l/2015-01/msg00633.html){:target="_blank"}은 `#!/usr/bin/env lua `
 
 ### 주석
 ```lua
@@ -49,8 +48,8 @@ brew install lua
 ### 변수
 
 * 숫자는 모두 double 형
-  * [there is no rounding error at all unless the number is greater than 100,000,000,000,000](http://www.lua.org/pil/2.3.html)
-  * [maximum number is roughly 2^1024, or 5.6e300](https://stackoverflow.com/a/945935/8163714)
+  * There is no rounding error at all unless the number is [greater than 100,000,000,000,000](http://www.lua.org/pil/2.3.html){:target="_blank"}
+  * maximum number is [roughly 2^1024, or 5.6e300](https://stackoverflow.com/a/945935/8163714){:target="_blank"}
 * 스트링은 홑따옴표, 쌍따옴표 상관없음
 * 스트링 여러줄을 묶을때는 더블브라켓 사용
 
@@ -156,7 +155,7 @@ end
 
 #### Closure
 
-* [클로저](https://ko.wikipedia.org/wiki/클로저_(컴퓨터_프로그래밍))
+* [클로저](https://ko.wikipedia.org/wiki/클로저_(컴퓨터_프로그래밍)){:target="_blank"}
 
 ```lua
 -- Closures and anonymous functions are ok:
@@ -217,7 +216,7 @@ print 'hello'  -- Works fine.
 
 ### 테이블
 
-* 유일한 데이터 구조이고 [java script의 objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)와 [php 배열](http://php.net/manual/en/language.types.array.php)과 유사
+* 유일한 데이터 구조이고 [java script의 objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects){:target="_blank"}와 [php 배열](http://php.net/manual/en/language.types.array.php){:target="_blank"}과 유사
 
 ```lua
 ----------------------------------------------------
@@ -505,8 +504,8 @@ g()  -- Prints out 343; nothing printed before now.
 
 ### 레퍼런스
 
-* [Lua Users](http://lua-users.org/)
-* 다른 언어들을 모음 [LearnXinYminutes](https://learnxinyminutes.com/)
+* [Lua Users](http://lua-users.org/){:target="_blank"}
+* 다른 언어들을 모음 [LearnXinYminutes](https://learnxinyminutes.com/){:target="_blank"}
 
 ```lua
 ----------------------------------------------------
