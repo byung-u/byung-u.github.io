@@ -45,39 +45,34 @@ pre code {
 .language-html td {
     padding: 0;
     border: 0;
-
 }
 
 h1,h2,h3,h4,h5,h6{
-    font-weight: normal;
+    font-weight: bold;
+    font-style: normal;
 }
 
 h1 {
-    font-size: 2.2rem;
+    font-size: 2.0rem;
     margin: 0px;
 }
 h2 {
-    font-size: 1.8em;
-    border-bottom: 1px solid $theme-color;
+    font-size: 1.6em;
+    border-bottom: 1px solid #d8d8d8;
 }
 h3 {
-    font-size: 1.6em;
+    font-size: 1.4em;
     padding-left: 10px;
-    font-style: italic;
 }
 h4 {
-    font-size: 1.4em;
+    font-size: 1.2em;
     padding-left: 20px;
-    font-style: italic;
 }
 h5 {
-    font-size: 1.2em;
+    font-size: 1.0em;
     padding-left: 30px;
-    font-style: italic;
 }
 h6 {
-    font-size: 1.0em;
+    font-size: 0.8em;
     padding-left: 40px;
-    font-weight: bold;
-    font-style: italic;
 }
