@@ -1,8 +1,8 @@
 ---
 layout  : wikiindex
-title   : wiki index
+title   : 위키 목차
 date 	: 2018-01-03 16:14:23 +0900
-updated : 2018-01-04 16:31:47 +0900
+updated : 2018-01-05 16:55:44 +0900
 tags    : index
 toc     : true
 public  : true
