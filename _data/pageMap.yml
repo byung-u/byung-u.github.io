@@ -1,10 +1,38 @@
+Perl:
+    type: wiki
+    title: Perl
+    summary: '25,000 extensions on CPAN, highly capable, feature-rich programming language'
+    parent: programming-language
+    url: /wiki/Perl
+    updated: '2018-01-06 00:20:56 +0900'
+'Programming Language':
+    type: wiki
+    title: '프로그래밍 언어'
+    summary: null
+    parent: index
+    url: '/wiki/Programming Language'
+    updated: '2018-01-05 23:56:31 +0900'
+index:
+    type: wiki
+    title: '위키 목차'
+    summary: null
+    parent: null
+    url: /wiki/index
+    updated: '2018-01-05 23:56:24 +0900'
 ThisBlog:
     type: wiki
     title: 'John grib님의 jekyll skeleton 추가 세팅'
     summary: 'jekyll skeleton 설정'
     parent: index
     url: /wiki/ThisBlog
-    updated: '2018-01-05 22:17:36 +0900'
+    updated: '2018-01-05 23:40:58 +0900'
+Lua:
+    type: wiki
+    title: Lua
+    summary: 'Powerful, efficient, lightweight, embeddable scripting language'
+    parent: programming-language
+    url: /wiki/Lua
+    updated: '2018-01-05 23:39:42 +0900'
 Productivity:
     type: wiki
     title: '편의성이 좋은 유틸'
@@ -12,13 +40,6 @@ Productivity:
     parent: index
     url: /wiki/Productivity
     updated: '2018-01-05 22:15:13 +0900'
-index:
-    type: wiki
-    title: '위키 목차'
-    summary: null
-    parent: null
-    url: /wiki/index
-    updated: '2018-01-05 22:14:46 +0900'
 Mutt:
     type: wiki
     title: 'mutt로 Gmail 사용하기'
@@ -26,13 +47,6 @@ Mutt:
     parent: Productivity
     url: /wiki/Mutt
     updated: '2018-01-05 21:52:18 +0900'
-Lua:
-    type: wiki
-    title: Lua
-    summary: 'Powerful, efficient, lightweight, embeddable scripting language'
-    parent: programming-language
-    url: /wiki/Lua
-    updated: '2018-01-05 21:36:24 +0900'
 2018-01-05-til-2017:
     type: blog
     title: '2018년 이전에 정리했던 내용'
@@ -54,10 +68,3 @@ Lua:
     parent: null
     url: /blog/2018/01/05/communication-procedure-abbreviation
     updated: '2018-01-05 11:49:29 +0900'
-'Programming Language':
-    type: wiki
-    title: '프로그래밍 언어'
-    summary: null
-    parent: index
-    url: '/wiki/Programming Language'
-    updated: '2018-01-04 16:32:19 +0900'
