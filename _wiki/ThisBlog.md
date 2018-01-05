@@ -1,10 +1,10 @@
 ---
 layout  : wiki
-title   : John grib님의 jekyll skeleton으로 내 블로그 꾸미기
+title   : John grib님의 jekyll skeleton 추가 세팅
 summary : jekyll skeleton 설정
 date    : 2018-01-04 14:46:05 +0900
-updated : 2018-01-05 21:35:51 +0900
-tags    : vimwiki johngrib naver google
+updated : 2018-01-05 22:17:36 +0900
+tags    : vimwiki johngrib 
 toc     : true
 public  : true
 parent  : index
@@ -36,7 +36,7 @@ latex   : true
   comment : false
   ---
   
-  * [ [ link ] ]    <-- 실제 사용할때는 "공백 제거"
+  * [ [ link ] ]    <-- 실제 사용할때는 "공백 제거"해야하고 저기에 커서를 두어야합니다.
   
   ```
   

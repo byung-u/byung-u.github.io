@@ -1,14 +1,14 @@
 # Site settings
-title: Hetz
+title: void
 url: "https://byung-u.github.io"
 baseurl: ""
 description: >
-    글쓰기 연습장
+    A=A+B-(B=A)
 
 # My information
 email: byungwoo.jeun@gmail.com
 author: Byungwoo Jeon
-profile: Hetz
+profile: void
 twitter_username: byungwoo_jeun
 github_username: byung-u
 disqus_shortname: byungwoo
