@@ -3,7 +3,7 @@ layout  : wiki
 title   : John grib님의 jekyll skeleton 추가 세팅
 summary : jekyll skeleton 설정
 date    : 2018-01-04 14:46:05 +0900
-updated : 2018-01-05 22:17:36 +0900
+updated : 2018-01-05 23:40:58 +0900
 tags    : vimwiki johngrib 
 toc     : true
 public  : true
@@ -16,7 +16,7 @@ latex   : true
 ## 설명
 * 최소한의 노력으로 블로깅을 할 수 있는 방법에 관심이 많았는데 <span style="color:red">이건 정말 최고입니다.</span>
 * [johngrib-jekyll-skeleton](https://github.com/johngrib/johngrib-jekyll-skeleton){:target="_blank"}을
-단순히 [jJ]ohngrib만 내가 사용하는 ID로 바꿔서 쓰려했으나 실패했습니다.
+단순히 [jJ]ohngrib만 제가 사용하는 ID로 바꿔서 쓰려했으나 실패했습니다.
 * 확인해서 맞춰줘야 할 것들을 찾아서 모아두었습니다.
 
 ## 참고링크
@@ -59,11 +59,12 @@ latex   : true
 * [google-analystics](https://analytics.google.com/analytics/web/#embed/report-home/a41925802w166845303p167173327/){:target="_blank"}
   - 기존에 adsense만 사용하고 있었는데 이걸 이제서야 사용하게 되었습니다.
 <br /><br />
-* [google-search engine](https://cse.google.com/cse/all){:target="_blank"} 설정할 때 수익창출 부분 설정 확인
+* [google-search engine](https://cse.google.com/cse/all){:target="_blank"}
   - `search.html` 파일을 열어보니 왠지 그대로 쓰면 안되게 생겼습니다.
   ```html
   var cx = '009589569786427844174:n5gsvy4rj58';
   ```
+  - 설정할 때 수익창출 부분 설정 확인하고
   - 검색엔진 새로 만들어서 `코드가져오기`로 가져와서 썼습니다.
 <br /><br />
 * `start.sh` 실행하다가 에러 발생한 경우 (MacOS)

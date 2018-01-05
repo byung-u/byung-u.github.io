@@ -3,7 +3,7 @@ layout  : wiki
 title   : Lua
 summary : Powerful, efficient, lightweight, embeddable scripting language
 date    : 2017-12-03 15:01:36 +0900
-updated : 2018-01-05 21:36:24 +0900
+updated : 2018-01-05 23:39:42 +0900
 tags    : language lua
 toc     : true
 public  : true
@@ -30,7 +30,7 @@ brew install lua
 
 ## 문법
 * [Lua in 15 minutes](http://tylerneylon.com/a/learn-lua/){:target="_blank"}
-* 좋은 말은 가져다 붙인것 같습니다. [빠르고, 강력하고 심플한...](https://www.lua.org/about.html){:target="_blank"}
+* 좋은 말은 모두 가져다 붙인것 같습니다. [빠르고, 강력하고 심플한...](https://www.lua.org/about.html){:target="_blank"}
   * 얼마나 좋은지 한번 겪어보고 싶어졌습니다.
 * 사용하는 [shebang](http://lua-users.org/lists/lua-l/2015-01/msg00633.html){:target="_blank"}은 `#!/usr/bin/env lua `
 
