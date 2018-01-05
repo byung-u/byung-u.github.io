@@ -3,5 +3,4 @@ bower_components/
 BACKUP
 .sass-cache/
 
-generateData.js
 start.sh
