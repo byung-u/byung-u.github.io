@@ -2,7 +2,7 @@
 layout  : wikiindex
 title   : 위키 목차
 date 	: 2018-01-03 16:14:23 +0900
-updated : 2018-01-05 23:56:24 +0900
+updated : 2018-01-06 22:27:43 +0900
 tags    : index
 toc     : true
 public  : true
@@ -15,3 +15,5 @@ comment : false
   * [[Perl]]
 * [[Productivity]]{편의성이 좋은 유틸}
   * [[Mutt]]
+* [[SportsStar]]{남다른프로선수}
+  * [[Ichiro Suzuki]]
