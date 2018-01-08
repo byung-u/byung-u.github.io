@@ -3,7 +3,7 @@ layout  : wiki
 title   : John grib님의 jekyll skeleton 추가 세팅
 summary : jekyll skeleton 설정
 date    : 2018-01-04 14:46:05 +0900
-updated : 2018-01-05 23:40:58 +0900
+updated : 2018-01-08 23:22:53 +0900
 tags    : vimwiki johngrib 
 toc     : true
 public  : true
@@ -58,6 +58,10 @@ latex   : true
 <br /><br />
 * [google-analystics](https://analytics.google.com/analytics/web/#embed/report-home/a41925802w166845303p167173327/){:target="_blank"}
   - 기존에 adsense만 사용하고 있었는데 이걸 이제서야 사용하게 되었습니다.
+<br /><br />
+* [google-console](https://www.google.com/webmasters/tools/home?hl=en)
+  - robot.txt 확인
+  - Sitemap 파일등록
 <br /><br />
 * [google-search engine](https://cse.google.com/cse/all){:target="_blank"}
   - `search.html` 파일을 열어보니 왠지 그대로 쓰면 안되게 생겼습니다.

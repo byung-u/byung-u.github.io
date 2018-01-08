@@ -3,7 +3,7 @@ layout  : wiki
 title   : Ichiro Suzuki
 summary : Ichiro Suzuki
 date    : 2018-01-06 22:29:03 +0900
-updated : 2018-01-06 23:51:24 +0900
+updated : 2018-01-07 21:27:10 +0900
 tags    : Ichiro Suzuki
 toc     : true
 public  : true
@@ -28,6 +28,10 @@ latex   : false
   * 타격쪽으로 전향해서 큰 성공
 * 나머지는 [위키에서](https://ko.wikipedia.org/wiki/%EC%8A%A4%EC%A6%88%ED%82%A4_%EC%9D%B4%EC%B9%98%EB%A1%9C){:target="_blank"}
 * 더 나머지는 [나무위키에서](https://namu.mirror.wiki/w/%EC%8A%A4%EC%A6%88%ED%82%A4%20%EC%9D%B4%EC%B9%98%EB%A1%9C){:target="_blank"}
+* <span style="color:red">더 많은 자료들을 이해하려면 일본어부터 알아야 되겠다..</span>
+
+## 동영상
+* [이치로만의 독자적인 연습 방법](https://www.youtube.com/watch?v=ixjWjs5KBV0){:target="_blank"}
 
 ## 기사와 명언
 * [까탈스런 이치로, 뜻밖의 수상소감 20171226](http://v.sports.media.daum.net/v/20171226081318884?f=m){:target="_blank"}
