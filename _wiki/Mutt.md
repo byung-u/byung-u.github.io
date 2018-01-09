@@ -3,7 +3,7 @@ layout  : wiki
 title   : mutt로 Gmail 사용하기
 summary : Gmail with mutt
 date    : 2018-01-05 20:59:22 +0900
-updated : 2018-01-05 21:52:18 +0900
+updated : 2018-01-09 15:47:41 +0900
 tags    : mutt gmail
 toc     : true
 public  : true
@@ -65,7 +65,11 @@ brew install mutt
 * 그냥 텍스트로만 구성된건 상관없는데 대부분의 메일들이 html 형식으로 작성되서 오다보니 태그들도 같이 보입니다.
 * 뭐,, 개인적으로는 불필요한 이미지들과 꾸민 것들을 보는것 보다는 단순 텍스트가 훨씬 낫다는 생각입니다.
 * 일부 가렸지만 대충 이런 느낌으로 보입니다.
-![Mail open]({{ site.url }}/wiki/img/mutt_1.png){: style="display : width:250px; height:250pxblock; padding:1px;"}
+
+![Mail open]({{ site.url }}/wiki/img/mutt_1.png?style=centerimg)
+
+{:.image-caption}
+*Figure 1. Mail open*
 
 ## 사용법
 * 기본동작은 vim과 유사하고 top 메뉴를 보면 알 수 있습니다.	

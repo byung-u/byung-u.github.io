@@ -76,3 +76,14 @@ h6 {
     font-size: 0.8em;
     padding-left: 40px;
 }
+
+img[src$="centerimg"] {
+  display:block;
+  margin: 0 auto;
+}
+
+.image-caption {
+  text-align: center;
+  font-size: .8rem;
+  color: light-grey;
+}

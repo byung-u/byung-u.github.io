@@ -1,17 +1,73 @@
-Mutt:
+'Mermaid & imgcat':
     type: wiki
-    title: 'mutt로 Gmail 사용하기'
-    summary: 'Gmail with mutt'
+    title: 'Mermaid & imgcat'
+    summary: 'Mermaid & imgcat'
     parent: Productivity
-    url: /wiki/Mutt
-    updated: '2018-01-05 21:52:18 +0900'
+    url: '/wiki/Mermaid & imgcat'
+    updated: '2018-01-09 15:47:31 +0900'
 ThisBlog:
     type: wiki
     title: 'John grib님의 jekyll skeleton 추가 세팅'
     summary: 'jekyll skeleton 설정'
     parent: index
     url: /wiki/ThisBlog
-    updated: '2018-01-08 23:22:53 +0900'
+    updated: '2018-01-09 11:57:56 +0900'
+Mutt:
+    type: wiki
+    title: 'mutt로 Gmail 사용하기'
+    summary: 'Gmail with mutt'
+    parent: Productivity
+    url: /wiki/Mutt
+    updated: '2018-01-09 15:47:41 +0900'
+'Block Chain':
+    type: wiki
+    title: 'Block Chain'
+    summary: 'Block Chain'
+    parent: Concept
+    url: '/wiki/Block Chain'
+    updated: '2018-01-09 16:50:53 +0900'
+OOP:
+    type: wiki
+    title: OOP
+    summary: 'Object-Oriented Programming'
+    parent: Concept
+    url: /wiki/OOP
+    updated: '2018-01-09 11:15:01 +0900'
+Concept:
+    type: wiki
+    title: 개념
+    summary: '기술들의 개념'
+    parent: index
+    url: /wiki/Concept
+    updated: '2018-01-09 11:14:08 +0900'
+index:
+    type: wiki
+    title: '위키 목차'
+    summary: null
+    parent: null
+    url: /wiki/index
+    updated: '2018-01-09 11:14:11 +0900'
+Lua:
+    type: wiki
+    title: Lua
+    summary: 'Powerful, efficient, lightweight, embeddable scripting language'
+    parent: programming-language
+    url: /wiki/Lua
+    updated: '2018-01-09 11:15:24 +0900'
+'Programming Language':
+    type: wiki
+    title: '프로그래밍 언어'
+    summary: null
+    parent: index
+    url: '/wiki/Programming Language'
+    updated: '2018-01-09 11:12:53 +0900'
+Tech:
+    type: wiki
+    title: 기술
+    summary: 기술
+    parent: index
+    url: /wiki/Tech
+    updated: '2018-01-09 11:12:40 +0900'
 Productivity:
     type: wiki
     title: '편의성이 좋은 유틸'
@@ -19,34 +75,6 @@ Productivity:
     parent: index
     url: /wiki/Productivity
     updated: '2018-01-08 23:35:48 +0900'
-'Mermaid & imgcat':
-    type: wiki
-    title: 'Mermaid & imgcat'
-    summary: 'Mermaid & imgcat'
-    parent: Productivity
-    url: '/wiki/Mermaid & imgcat'
-    updated: '2018-01-09 00:22:00 +0900'
-index:
-    type: wiki
-    title: '위키 목차'
-    summary: null
-    parent: null
-    url: /wiki/index
-    updated: '2018-01-08 23:35:36 +0900'
-OOP:
-    type: wiki
-    title: OOP
-    summary: 'Object-Oriented Programming'
-    parent: programming-language
-    url: /wiki/OOP
-    updated: '2018-01-07 21:29:47 +0900'
-'Programming Language':
-    type: wiki
-    title: '프로그래밍 언어'
-    summary: null
-    parent: index
-    url: '/wiki/Programming Language'
-    updated: '2018-01-07 21:27:44 +0900'
 'Ichiro Suzuki':
     type: wiki
     title: 'Ichiro Suzuki'
@@ -68,13 +96,6 @@ Perl:
     parent: programming-language
     url: /wiki/Perl
     updated: '2018-01-06 00:20:56 +0900'
-Lua:
-    type: wiki
-    title: Lua
-    summary: 'Powerful, efficient, lightweight, embeddable scripting language'
-    parent: programming-language
-    url: /wiki/Lua
-    updated: '2018-01-05 23:39:42 +0900'
 2018-01-05-til-2017:
     type: blog
     title: '2018년 이전에 정리했던 내용'

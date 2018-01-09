@@ -3,7 +3,7 @@ layout  : wiki
 title   : Mermaid & imgcat
 summary : Mermaid & imgcat
 date    : 2018-01-05 20:59:22 +0900
-updated : 2018-01-09 00:22:00 +0900
+updated : 2018-01-09 15:47:31 +0900
 tags    : mermaid imgcat
 toc     : true
 public  : true
@@ -84,7 +84,10 @@ Could not find phantomjs at the specified path.
   ```
   
   * 잘 나옵니다.
-  ![ProxyTimerC]({{ site.url }}/wiki/img/proxy_timer_c.mmd.png){: style="display : padding:1px;"}
+![ProxyTimerC]({{ site.url }}/wiki/img/proxy_timer_c.mmd.png?style=centerimg)
+
+{:.image-caption}
+*Figure 1. Proxy Timer C Flow*
  
   * `mmd` 텍스트 파일을 조금씩 수정하면서 바로 이미지 확인이 가능해서 편리합니다.
   ```

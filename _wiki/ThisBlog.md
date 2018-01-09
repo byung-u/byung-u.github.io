@@ -3,7 +3,7 @@ layout  : wiki
 title   : John grib님의 jekyll skeleton 추가 세팅
 summary : jekyll skeleton 설정
 date    : 2018-01-04 14:46:05 +0900
-updated : 2018-01-08 23:22:53 +0900
+updated : 2018-01-09 11:57:56 +0900
 tags    : vimwiki johngrib 
 toc     : true
 public  : true
@@ -20,6 +20,7 @@ latex   : true
 * 확인해서 맞춰줘야 할 것들을 찾아서 모아두었습니다.
 
 ## 참고링크
+* [MediaWiki 문법](https://www.mediawiki.org/wiki/Help:Formatting){:target="_blank"}
 * [vimwiki](https://github.com/vimwiki/vimwiki){:target="_blank"}
   - vi를 열고 `<Leader>ww`  수행하니까 index.md 파일이 열립니다.
   - 아무것도 처음에는 없다. 일단 따라해보니 아래 link에 커서를 두고 엔터치니 바로 생깁니다.
