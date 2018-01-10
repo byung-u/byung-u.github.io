@@ -3,7 +3,7 @@ layout  : wiki
 title   : Ichiro Suzuki
 summary : Ichiro Suzuki
 date    : 2018-01-06 22:29:03 +0900
-updated : 2018-01-10 12:58:15 +0900
+updated : 2018-01-10 16:30:41 +0900
 tags    : Ichiro Suzuki
 toc     : true
 public  : true
@@ -14,6 +14,10 @@ latex   : false
 {:toc}
 
 ## 스츠키 이치로(イチロ)
+![Ichiro](https://ord.yahoo.co.jp/o/image/RV=1/RE=1515643806/RH=b3JkLnlhaG9vLmNvLmpw/RB=/RU=aHR0cDovL3d3dy5hcGFsb2cuY29tL2hhdGFrZXlhbWEvaW1nLzQyNS9aRjh4TlRReU9WODNPVEZqT1dOaFpGOXNXekZkUmo0LmpwZw--/RS=%5EADBpk4LqmaUDckPNUosCdCJebShqEA-;_ylt=A2RiouIdklVaGikASCGU3uV7?style=centerimg)
+
+{:.image-caption}
+*Figure 1. 스츠키 이치로 [출처](http://www.apalog.com/hatakeyama/archive/425){:target="_blank"}*
 * 한자이름:	鈴木一朗
   * 鈴: 방울 령
   * 木: 나무 목
@@ -28,7 +32,8 @@ latex   : false
   * 타격쪽으로 전향해서 큰 성공
 * 나머지는 [위키에서](https://ko.wikipedia.org/wiki/%EC%8A%A4%EC%A6%88%ED%82%A4_%EC%9D%B4%EC%B9%98%EB%A1%9C){:target="_blank"}
 * 더 나머지는 [나무위키에서](https://namu.mirror.wiki/w/%EC%8A%A4%EC%A6%88%ED%82%A4%20%EC%9D%B4%EC%B9%98%EB%A1%9C){:target="_blank"}
-* <span style="color:red">더 많은 자료들을 이해하려면 일본어부터 알아야 되겠다..</span>
+* <span style="color:red">더 재미있는 자료들을 이해하려면 일본어를 알아야한다 ㅜ.ㅜ</span>
+* 2001~2017 통계자료 [[이치로_통계]]
 
 ## 동영상
 * [이치로만의 독자적인 연습 방법](https://www.youtube.com/watch?v=ixjWjs5KBV0){:target="_blank"}
