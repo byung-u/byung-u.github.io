@@ -3,11 +3,11 @@ layout  : wiki
 title   : Ichiro Suzuki
 summary : Ichiro Suzuki
 date    : 2018-01-06 22:29:03 +0900
-updated : 2018-01-07 21:27:10 +0900
+updated : 2018-01-10 12:58:15 +0900
 tags    : Ichiro Suzuki
 toc     : true
 public  : true
-parent  : SportsStar
+parent  : professional
 latex   : false
 ---
 * TOC
