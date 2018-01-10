@@ -11,7 +11,7 @@
     summary: 'Ichiro baseball statistics'
     parent: 'Ichiro Suzuki'
     url: /wiki/이치로_통계
-    updated: '2018-01-10 16:39:23 +0900'
+    updated: '2018-01-11 00:24:39 +0900'
 Mutt:
     type: wiki
     title: 'mutt로 Gmail 사용하기'
@@ -33,6 +33,13 @@ Concept:
     parent: index
     url: /wiki/Concept
     updated: '2018-01-09 11:14:08 +0900'
+GDB:
+    type: wiki
+    title: GDB
+    summary: GDB
+    parent: Productivity
+    url: /wiki/GDB
+    updated: '2018-01-10 17:44:52 +0900'
 'Ichiro Suzuki':
     type: wiki
     title: 'Ichiro Suzuki'
@@ -46,7 +53,7 @@ index:
     summary: null
     parent: null
     url: /wiki/index
-    updated: '2018-01-10 13:03:43 +0900'
+    updated: '2018-01-10 16:48:30 +0900'
 Lua:
     type: wiki
     title: Lua
