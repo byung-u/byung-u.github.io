@@ -3,7 +3,7 @@ layout  : wiki
 title   : GDB
 summary : GDB
 date    : 2018-01-05 20:59:22 +0900
-updated : 2018-01-10 17:44:52 +0900
+updated : 2018-01-15 10:54:49 +0900
 tags    : GDB
 toc     : true
 public  : true
@@ -31,12 +31,12 @@ C 개발합니다보니 gdb없이는 디버깅이 어려울때가 많아서 정�
     in test_Utility.c
 ```	
 
-### 소스코드 봐가면 따라가기
+### 소스코드 봐가면서 따라가기
 * [매뉴얼 확인](https://sourceware.org/gdb/onlinedocs/gdb/Symbols.html){:target="_blank"}
 
 ```c
-(gdb) whatis 
-pStTrct
+(gdb) whatis pStTrct
+type = stTrct_t *
 
 (gdb) ptype pStTrct
  type = struct _stTrct_t {
