@@ -3,7 +3,7 @@ layout  : wiki
 title   : Ichiro Suzuki
 summary : Ichiro Suzuki
 date    : 2018-01-06 22:29:03 +0900
-updated : 2018-01-10 16:30:41 +0900
+updated : 2018-01-15 22:48:39 +0900
 tags    : Ichiro Suzuki
 toc     : true
 public  : true
@@ -14,6 +14,8 @@ latex   : false
 {:toc}
 
 ## 스츠키 이치로(イチロ)
+* 훈련하고 시합에 임하는 한결같은 모습의 이치로 선수에 대해 좀 자세히 알고 싶어졌습니다.
+
 ![Ichiro](https://ord.yahoo.co.jp/o/image/RV=1/RE=1515643806/RH=b3JkLnlhaG9vLmNvLmpw/RB=/RU=aHR0cDovL3d3dy5hcGFsb2cuY29tL2hhdGFrZXlhbWEvaW1nLzQyNS9aRjh4TlRReU9WODNPVEZqT1dOaFpGOXNXekZkUmo0LmpwZw--/RS=%5EADBpk4LqmaUDckPNUosCdCJebShqEA-;_ylt=A2RiouIdklVaGikASCGU3uV7?style=centerimg)
 
 {:.image-caption}
@@ -35,6 +37,23 @@ latex   : false
 * <span style="color:red">더 재미있는 자료들을 이해하려면 일본어를 알아야한다 ㅜ.ㅜ</span>
 * 2001~2017 통계자료 [[이치로_통계]]
 
+## 성장과정
+* [이치로의 어린시절 에피소드](https://mendy.jp/articles/view/496766){:target="_blank"}
+  * 4.28kg 탄생
+  * 3살에 장난감 방망이와 공으로 시작
+  * 초등학교 6학년때 쓴 작문중
+    * 365 일 중 360 일 격렬한 운동을하고 있습니다.
+    * 1 주일에 친구들과 놀 시간은 5 ~ 6 시간입니다. 
+	* 그렇게 연습을하고 있으니, 반드시 프로 야구 선수가 될 수 있다고 생각합니다.
+* [이치로 아버지 인터뷰](http://kodomo-ouen.com/interview/01.html){:target="_blank"}
+  * 이치로는 "사람이 혼자 사는 것은 아니다」라고 항상 다짐했습니다. 야구를 잘해도 주위에 감사 할 수없는 인간은 어쩔 수 없다니까. 
+  * 초, 중, 고등학교에서 만난 야구부의 감독과 동료들을 비롯해서 이웃들도 항상 우리 부자를 지켜 보며 이치로의 꿈을 응원 해주었습니다. 
+  * 우리가 다닌 배팅 센터의 사장이 이치로를 위해 특별히 빠른 볼이 나오는 기계를 마련 해준 적도있었습니다.
+  * 그런 분들 덕분에 지금의 이치로가있다고 이치로 자신도 알고 있다고 생각합니다. 
+  * 자녀교육에 대해 가장 중요한 것
+    * 20 세까지는 부모의 책임에 단단히 교육해야한다고 생각합니다. 
+	* 그 중에서도 어린 시절 이른바 의무 교육 사이가 특히 중요하며,이 기간에 부모와 교사를 비롯한 주위의 어른들이 제대로 봐주는 것이 중요합니다.
+	* 그러면 아이는 잘못된 길로 진행되지 않고, 자신의 꿈과 목표를 향해 노력할 수있는 자녀가됩니다. 
 ## 동영상
 * [이치로만의 독자적인 연습 방법](https://www.youtube.com/watch?v=ixjWjs5KBV0){:target="_blank"}
 
@@ -59,6 +78,10 @@ latex   : false
   * 이치로는 “한때는 몸무게에서 힘이 나온다고 믿었지만 지금은 아니다. 나의 잠재된 힘을 최대치로 끌어올리는 방법을 이제는 안다”며 “나는 **유연성**이 나에게 힘을 준다고 믿는다. 유연성이 나의 무기”라고 했다.
   * 나는 성공이라는 말을 좋아하지 않는다. 너무 임의적이고 상대적인 말이기 때문이다. (성공이라는 것은) 내가 아닌 누군가가 정하는 것 아니냐. 누군가의 인정을 받기 위해 분투하는 것은 겉치레일 뿐이다. 자기 자신에게 인정받기 위해 싸워야만 한다.
   * 나는 그저 특별한 하루 없이 매일을 똑같이 살아가면서 연습처럼 경기하고 연습처럼 경기를 끝낸다. 그렇게 하기 위해 피나는 훈련을 하고 준비를 한다. 나는 과거의 업적 때문이 아니라 미래에 내가 달성할 것들 때문에 나 자신이 자랑스럽다. 그게 나의 삶의 모토다.
+<br /> <br />
+* [이치로 "나는 항상 남들이 비웃는 일을 해냈다" 20170617](http://www.yonhapnews.co.kr/bulletin/2016/06/17/0200000000AKR20160617114200073.HTML){:target="_blank"}
+  * 이치로씨의 대단함은 아무것도 변하지 않는 것
+  * 나는 마음 속에 연마하고 싶은 돌이 있다. 그것을 야구를 통해 빛나게 하고 싶다
 <br /> <br />
 * [The Secret Gym of Ichiro Suzuki 20141209](http://hisashimurayama.tumblr.com/post/104726452140/the-secret-gym-of-ichiro-suzuki-hisashi){:target="_blank"}
   * 일본 기업인 월드윙 엔터프라이즈에서 제작한 이치로만을 위한 맞춤 설계용 트레이닝 기구

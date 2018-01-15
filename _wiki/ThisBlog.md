@@ -3,7 +3,7 @@ layout  : wiki
 title   : John grib님의 jekyll skeleton 추가 세팅
 summary : jekyll skeleton 설정
 date    : 2018-01-04 14:46:05 +0900
-updated : 2018-01-09 11:57:56 +0900
+updated : 2018-01-15 14:46:17 +0900
 tags    : vimwiki johngrib 
 toc     : true
 public  : true
@@ -14,7 +14,7 @@ latex   : true
 {:toc}
 
 ## 설명
-* 최소한의 노력으로 블로깅을 할 수 있는 방법에 관심이 많았는데 <span style="color:red">이건 정말 최고입니다.</span>
+* 최소한의 노력으로 블로깅을 할 수 있는 방법에 관심이 많았는데 <span style="color:red">이건 정말 편리합니다..</span>
 * [johngrib-jekyll-skeleton](https://github.com/johngrib/johngrib-jekyll-skeleton){:target="_blank"}을
 단순히 [jJ]ohngrib만 제가 사용하는 ID로 바꿔서 쓰려했으나 실패했습니다.
 * 확인해서 맞춰줘야 할 것들을 찾아서 모아두었습니다.

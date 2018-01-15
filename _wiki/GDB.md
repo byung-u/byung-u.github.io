@@ -3,7 +3,7 @@ layout  : wiki
 title   : GDB
 summary : GDB
 date    : 2018-01-05 20:59:22 +0900
-updated : 2018-01-15 10:54:49 +0900
+updated : 2018-01-15 14:38:49 +0900
 tags    : GDB
 toc     : true
 public  : true
@@ -33,7 +33,7 @@ C 개발합니다보니 gdb없이는 디버깅이 어려울때가 많아서 정�
 
 ### 소스코드 봐가면서 따라가기
 * [매뉴얼 확인](https://sourceware.org/gdb/onlinedocs/gdb/Symbols.html){:target="_blank"}
-
+* 본 예제에서 확인해야할 구조체 이름은 `pStTrct`
 ```c
 (gdb) whatis pStTrct
 type = stTrct_t *
