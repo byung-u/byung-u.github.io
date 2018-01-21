@@ -3,7 +3,7 @@ layout  : wiki
 title   : Ichiro Suzuki
 summary : Ichiro Suzuki
 date    : 2018-01-06 22:29:03 +0900
-updated : 2018-01-15 22:48:39 +0900
+updated : 2018-01-21 22:20:24 +0900
 tags    : Ichiro Suzuki
 toc     : true
 public  : true
@@ -14,9 +14,9 @@ latex   : false
 {:toc}
 
 ## 스츠키 이치로(イチロ)
-* 훈련하고 시합에 임하는 한결같은 모습의 이치로 선수에 대해 좀 자세히 알고 싶어졌습니다.
+* 주변 사람들에게 감사해하고 한결같은 모습의 이 선수가 궁금해졌습니다.
 
-![Ichiro](https://ord.yahoo.co.jp/o/image/RV=1/RE=1515643806/RH=b3JkLnlhaG9vLmNvLmpw/RB=/RU=aHR0cDovL3d3dy5hcGFsb2cuY29tL2hhdGFrZXlhbWEvaW1nLzQyNS9aRjh4TlRReU9WODNPVEZqT1dOaFpGOXNXekZkUmo0LmpwZw--/RS=%5EADBpk4LqmaUDckPNUosCdCJebShqEA-;_ylt=A2RiouIdklVaGikASCGU3uV7?style=centerimg)
+![Ichiro](http://www.apalog.com/hatakeyama/img/425/ZF8xNTQyOV83OTFjOWNhZF9sWzFdRj4.jpg?style=centerimg)
 
 {:.image-caption}
 *Figure 1. 스츠키 이치로 [출처](http://www.apalog.com/hatakeyama/archive/425){:target="_blank"}*
