@@ -3,7 +3,7 @@ layout  : wiki
 title   : Python
 summary : Python
 date    : 2018-01-16 11:18:37 +0900
-updated : 2018-01-21 22:14:26 +0900
+updated : 2018-01-21 22:16:38 +0900
 tags    : language python
 toc     : true
 public  : true
@@ -19,8 +19,9 @@ latex   : false
 
 ## 파이썬 라이브러리
 
-### [pickle](https://docs.python.org/3/library/pickle.html){:target="_blank"} (Python object serialization)
+### pickle
 
+* [pickle](https://docs.python.org/3/library/pickle.html){:target="_blank"} (Python object serialization)
 * Pickle 사용하는 케이스 [출처: stackoverflow](https://stackoverflow.com/a/3439921/8163714){:target="_blank"}
 
   1) **프로그램의 상태를 디스크에 저장해서 다시 시작했을 때, 중단했던 위치에서 다시 실행할 수 있습니다.** <br />
@@ -108,7 +109,8 @@ latex   : false
   ```
 <br />  <br />  
 
-### [asyncio](https://docs.python.org/3/library/asyncio.html){:target="_blank"} (Asynchronous I/O)
+### asyncio
+* [asyncio](https://docs.python.org/3/library/asyncio.html){:target="_blank"} (Asynchronous I/O)
 * python3.5 이상을 기준으로 작성 (async def, await 사용)
 * 비동기 프로그래밍 모듈로써 CPU 작업과 I/O 처리를 병렬로 하게 해줍니다.
 * `async def function_name()`으로 native coroutine을 생성해서 처리합니다.
