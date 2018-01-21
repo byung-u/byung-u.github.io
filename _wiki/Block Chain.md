@@ -3,7 +3,7 @@ layout  : wiki
 title   : Block Chain
 summary : Block Chain
 date    : 2018-01-09 11:15:48 +0900
-updated : 2018-01-09 16:50:53 +0900
+updated : 2018-01-22 08:58:03 +0900
 tags    : blockchain
 toc     : true
 public  : true
@@ -21,10 +21,11 @@ latex   : false
 * 2017.09.08 함께일하는 동료 5명중 나를 뺀 4명이 비트코인 투자(<del>투기</del>)를 시작하며 권유.
   빗썸이란 곳은 가입하면 1000원을 준다길래 가입 후 200원 리플을 5개 사두고 관심을 끔.
   Blcok chain 기술마저 관심을 끄고 지냄.
-  2018.01.08 우연히 들어보니 20배가 올라서 가보니 <span style="color:red">1000 ➜ 약 21000원</span>이 되어있음.
-  일단 이 돈으로는 시작.
-* 기왕 이렇게 된거 block chain 기술부터 확인해봐야겠다고 생각하고 파보기 시작
-* Block chain 관련 서적을 사다보기 전에 개념확인
+  2018.01.08 우연히 들어보니 20배가 올라서 가보니 1000 ➜ 약 21000원이 되어있음.
+* 돈이 생겼으니 버릴 수는 없고 [Bithumb API](https://www.bithumb.com/u1/US127){:target="_blank"}를 이용해서 
+  자동으로 사고팔 기능을 구현해서 일단 시작.
+* 기왕 이렇게 된거 block chain 기술부터 확인해봐야겠다고 생각하고 확인 시작
+* Block chain 관련 서적을 사보기 전에 개념확인
  
 ## 정의
 * The first blockchain was conceptualized in 2008 by an anonymous person or group known as Satoshi Nakamoto and implemented in 2009 as a core component of bitcoin where it serves as the public ledger for all transactions.[^1]
