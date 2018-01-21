@@ -1,10 +1,10 @@
-'Mermaid & imgcat':
+Mutt:
     type: wiki
-    title: 'Mermaid & imgcat'
-    summary: 'Mermaid & imgcat'
+    title: 'mutt로 Gmail 사용하기'
+    summary: 'Gmail with mutt'
     parent: Productivity
-    url: '/wiki/Mermaid & imgcat'
-    updated: '2018-01-09 15:47:31 +0900'
+    url: /wiki/Mutt
+    updated: '2018-01-09 15:47:41 +0900'
 이치로_통계:
     type: wiki
     title: 'Ichiro baseball statistics'
@@ -19,6 +19,13 @@ ThisBlog:
     parent: index
     url: /wiki/ThisBlog
     updated: '2018-01-15 14:46:17 +0900'
+Python:
+    type: wiki
+    title: Python
+    summary: Python
+    parent: programming-language
+    url: /wiki/Python
+    updated: '2018-01-21 22:04:06 +0900'
 Pomnyun:
     type: wiki
     title: Pomnyun
@@ -26,13 +33,6 @@ Pomnyun:
     parent: professional
     url: /wiki/Pomnyun
     updated: '2018-01-15 22:52:23 +0900'
-index:
-    type: wiki
-    title: '위키 목차'
-    summary: null
-    parent: null
-    url: /wiki/index
-    updated: '2018-01-15 22:19:47 +0900'
 GDB:
     type: wiki
     title: GDB
@@ -47,55 +47,20 @@ GDB:
     parent: professional
     url: '/wiki/Ichiro Suzuki'
     updated: '2018-01-15 22:48:39 +0900'
-'Block Chain':
+index:
     type: wiki
-    title: 'Block Chain'
-    summary: 'Block Chain'
-    parent: Concept
-    url: '/wiki/Block Chain'
-    updated: '2018-01-09 16:50:53 +0900'
-Concept:
-    type: wiki
-    title: 개념
-    summary: '기술들의 개념'
-    parent: index
-    url: /wiki/Concept
-    updated: '2018-01-09 11:14:08 +0900'
-2018-01-05-communication-procedure-abbreviation:
-    type: blog
-    title: '이동통신관련 약어 모음'
-    summary: '약어 모음'
-    parent: null
-    url: /blog/2018/01/05/communication-procedure-abbreviation
-    updated: '2018-01-10 13:57:48 +0900'
-Mutt:
-    type: wiki
-    title: 'mutt로 Gmail 사용하기'
-    summary: 'Gmail with mutt'
-    parent: Productivity
-    url: /wiki/Mutt
-    updated: '2018-01-09 15:47:41 +0900'
-OOP:
-    type: wiki
-    title: OOP
-    summary: 'Object-Oriented Programming'
-    parent: Concept
-    url: /wiki/OOP
-    updated: '2018-01-09 11:15:01 +0900'
-Lua:
-    type: wiki
-    title: Lua
-    summary: 'Powerful, efficient, lightweight, embeddable scripting language'
-    parent: programming-language
-    url: /wiki/Lua
-    updated: '2018-01-09 11:15:24 +0900'
-'Programming Language':
-    type: wiki
-    title: '프로그래밍 언어'
+    title: '위키 목차'
     summary: null
-    parent: index
-    url: '/wiki/Programming Language'
-    updated: '2018-01-09 11:12:53 +0900'
+    parent: null
+    url: /wiki/index
+    updated: '2018-01-21 21:54:43 +0900'
+Perl:
+    type: wiki
+    title: Perl
+    summary: '25,000 extensions on CPAN, highly capable, feature-rich programming language'
+    parent: programming-language
+    url: /wiki/Perl
+    updated: '2018-01-16 11:18:42 +0900'
 Productivity:
     type: wiki
     title: '편의성이 좋은 유틸'
@@ -103,6 +68,55 @@ Productivity:
     parent: index
     url: /wiki/Productivity
     updated: '2018-01-08 23:35:48 +0900'
+'Mermaid & imgcat':
+    type: wiki
+    title: 'Mermaid & imgcat'
+    summary: 'Mermaid & imgcat'
+    parent: Productivity
+    url: '/wiki/Mermaid & imgcat'
+    updated: '2018-01-09 15:47:31 +0900'
+'Block Chain':
+    type: wiki
+    title: 'Block Chain'
+    summary: 'Block Chain'
+    parent: Concept
+    url: '/wiki/Block Chain'
+    updated: '2018-01-09 16:50:53 +0900'
+2018-01-05-communication-procedure-abbreviation:
+    type: blog
+    title: '이동통신관련 약어 모음'
+    summary: '약어 모음'
+    parent: null
+    url: /blog/2018/01/05/communication-procedure-abbreviation
+    updated: '2018-01-10 13:57:48 +0900'
+Lua:
+    type: wiki
+    title: Lua
+    summary: 'Powerful, efficient, lightweight, embeddable scripting language'
+    parent: programming-language
+    url: /wiki/Lua
+    updated: '2018-01-09 11:15:24 +0900'
+OOP:
+    type: wiki
+    title: OOP
+    summary: 'Object-Oriented Programming'
+    parent: Concept
+    url: /wiki/OOP
+    updated: '2018-01-09 11:15:01 +0900'
+Concept:
+    type: wiki
+    title: 개념
+    summary: '기술들의 개념'
+    parent: index
+    url: /wiki/Concept
+    updated: '2018-01-09 11:14:08 +0900'
+'Programming Language':
+    type: wiki
+    title: '프로그래밍 언어'
+    summary: null
+    parent: index
+    url: '/wiki/Programming Language'
+    updated: '2018-01-09 11:12:53 +0900'
 SportsStar:
     type: wiki
     title: '철학을 가진 프로선수들'
@@ -110,13 +124,6 @@ SportsStar:
     parent: index
     url: /wiki/SportsStar
     updated: '2018-01-07 16:05:48 +0900'
-Perl:
-    type: wiki
-    title: Perl
-    summary: '25,000 extensions on CPAN, highly capable, feature-rich programming language'
-    parent: programming-language
-    url: /wiki/Perl
-    updated: '2018-01-06 00:20:56 +0900'
 2018-01-05-til-2017:
     type: blog
     title: '2018년 이전에 정리했던 내용'

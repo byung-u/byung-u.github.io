@@ -2,8 +2,8 @@
 layout  : wiki
 title   : Perl
 summary : 25,000 extensions on CPAN, highly capable, feature-rich programming language
-date     : 2018-01-05 23:58:51 +0900
-updated : 2018-01-06 00:20:56 +0900
+date    : 2018-01-05 23:58:51 +0900
+updated : 2018-01-16 11:18:42 +0900
 tags    : language perl
 toc     : true
 public  : true
