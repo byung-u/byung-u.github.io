@@ -3,7 +3,7 @@ layout  : wiki
 title   : Python
 summary : Python
 date    : 2018-01-16 11:18:37 +0900
-updated : 2018-01-21 22:16:38 +0900
+updated : 2018-01-21 22:31:54 +0900
 tags    : language python
 toc     : true
 public  : true
@@ -135,7 +135,7 @@ latex   : false
 {:.image-caption}
 *Figure 1. 비동기 처리 [출처](https://dojang.io/pluginfile.php/5583/mod_page/content/2/048002.png)*{:target="_blank"}
 
-* 기본 비동기 처리 예시
+* 기본 비동기 처리 예시 ([참고](http://cheat.readthedocs.io/en/latest/python/asyncio.html){:target="_blank"})
   * 기본 main 함수
   이벤트 루프를 생성하고 그 loop를 가지고 처리합니다. `asyncio.get_event_loop()`
   
