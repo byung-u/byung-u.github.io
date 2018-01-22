@@ -3,7 +3,7 @@ layout  : wiki
 title   : Block Chain
 summary : Block Chain
 date    : 2018-01-09 11:15:48 +0900
-updated : 2018-01-22 08:59:33 +0900
+updated : 2018-01-22 09:03:19 +0900
 tags    : blockchain
 toc     : true
 public  : true
@@ -17,7 +17,7 @@ latex   : false
 # 아직 작성중..
 
 ## 찾아본 계기
-* 2016.10.20 블록체인관련 발표를 이진석 (당시 CTO, 블로코)님께서 하시는데 거의 못 알아들음.
+* 2016.10.20 블록체인관련 [Tech Planet 2016](http://readme.skplanet.com/?p=13174){:target="_blank"}에서의 발표를 이진석 (당시 CTO, 블로코)님께서 하시는데 거의 못 알아들음.
 * 2017.09.08 함께일하는 동료 5명중 나를 뺀 4명이 비트코인 투자(<del>투기</del>)를 시작하며 권유.
   빗썸이란 곳은 가입하면 1000원을 준다길래 가입 후 200원 리플을 5개 사두고 관심을 끔.
   Blcok chain 기술마저 관심을 끄고 지냄.
