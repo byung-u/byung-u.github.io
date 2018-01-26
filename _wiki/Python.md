@@ -3,7 +3,7 @@ layout  : wiki
 title   : Python
 summary : Python
 date    : 2018-01-16 11:18:37 +0900
-updated : 2018-01-21 22:31:54 +0900
+updated : 2018-01-26 11:45:04 +0900
 tags    : language python
 toc     : true
 public  : true
@@ -24,7 +24,7 @@ latex   : false
 * [pickle](https://docs.python.org/3/library/pickle.html){:target="_blank"} (Python object serialization)
 * Pickle 사용하는 케이스 [출처: stackoverflow](https://stackoverflow.com/a/3439921/8163714){:target="_blank"}
 
-  1) **프로그램의 상태를 디스크에 저장해서 다시 시작했을 때, 중단했던 위치에서 다시 실행할 수 있습니다.** <br />
+  <pre> 1) **프로그램의 상태를 디스크에 저장해서 다시 시작했을 때, 중단했던 위치에서 다시 실행할 수 있습니다.** <br />
   saving a program's state data to disk so that it can carry on where it left off when restarted (persistence)
   
   2) **TCP로 통신하는 멀티 코어나 분산 시스템에 파이썬 데이터 전송할 때 사용할 수 있습니다.** <br />
@@ -35,6 +35,7 @@ latex   : false
   
   4) **임의의 파이썬 오브젝트를 문자열로 변환할 수 있어서 딕셔너리의 키로 사용할 수 있습니다.** <br />
   converting an arbitrary python object to a string so that it can be used as a dictionary key (e.g. for caching & memoization).
+  </pre>
 
 * 파이썬 배열을 디스크에 dump & load 하기. [출처: python tips](https://pythontips.com/2013/08/02/what-is-pickle-in-python/){:target="_blank"}
 

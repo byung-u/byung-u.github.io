@@ -19,13 +19,20 @@ ThisBlog:
     parent: index
     url: /wiki/ThisBlog
     updated: '2018-01-15 14:46:17 +0900'
+2018-01-25-5G_NRF:
+    type: blog
+    title: '5G NRF'
+    summary: 'Network Function(NF) Repository Function(NRF)'
+    parent: null
+    url: /blog/2018/01/05/5G_NRF
+    updated: '2018-01-25 14:37:39 +0900'
 'Block Chain':
     type: wiki
     title: 'Block Chain'
     summary: 'Block Chain'
     parent: Concept
     url: '/wiki/Block Chain'
-    updated: '2018-01-22 08:59:33 +0900'
+    updated: '2018-01-26 11:36:54 +0900'
 Python:
     type: wiki
     title: Python
