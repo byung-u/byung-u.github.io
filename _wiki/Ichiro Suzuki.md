@@ -3,7 +3,7 @@ layout  : wiki
 title   : Ichiro Suzuki
 summary : Ichiro Suzuki
 date    : 2018-01-06 22:29:03 +0900
-updated : 2018-01-21 22:20:24 +0900
+updated : 2018-01-26 11:40:50 +0900
 tags    : Ichiro Suzuki
 toc     : true
 public  : true
@@ -54,6 +54,7 @@ latex   : false
     * 20 세까지는 부모의 책임에 단단히 교육해야한다고 생각합니다. 
 	* 그 중에서도 어린 시절 이른바 의무 교육 사이가 특히 중요하며,이 기간에 부모와 교사를 비롯한 주위의 어른들이 제대로 봐주는 것이 중요합니다.
 	* 그러면 아이는 잘못된 길로 진행되지 않고, 자신의 꿈과 목표를 향해 노력할 수있는 자녀가됩니다. 
+
 ## 동영상
 * [이치로만의 독자적인 연습 방법](https://www.youtube.com/watch?v=ixjWjs5KBV0){:target="_blank"}
 
