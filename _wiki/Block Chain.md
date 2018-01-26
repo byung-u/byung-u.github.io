@@ -3,7 +3,7 @@ layout  : wiki
 title   : Block Chain
 summary : Block Chain
 date    : 2018-01-09 11:15:48 +0900
-updated : 2018-01-22 09:03:19 +0900
+updated : 2018-01-26 11:39:42 +0900
 tags    : blockchain
 toc     : true
 public  : true
@@ -14,11 +14,10 @@ latex   : false
 {:toc}
 
 
-# 아직 작성중..
-
 ## 찾아본 계기
+* 생각날때마다 계속 수정중
 * 2016.10.20 블록체인관련 [Tech Planet 2016](http://readme.skplanet.com/?p=13174){:target="_blank"}에서의 발표를 이진석 (당시 CTO, 블로코)님께서 하시는데 거의 못 알아들음.
-* 2017.09.08 함께일하는 동료 5명중 나를 뺀 4명이 비트코인 투자(<del>투기</del>)를 시작하며 권유.
+* 2017.09.08 함께일하는 동료 5명중 나를 뺀 4명이 비트코인 투자를 시작하며 저에게도 권유.
   빗썸이란 곳은 가입하면 1000원을 준다길래 가입 후 200원 리플을 5개 사두고 관심을 끔.
   Blcok chain 기술마저 관심을 끄고 지냄.
 * 2018.01.08 우연히 들어보니 20배가 올라서 가보니 1000 ➜ 약 21000원이 되어있음.
@@ -28,18 +27,16 @@ latex   : false
   * Block chain 관련 서적을 사보기 전에 개념확인
  
 ## 정의
-* The first blockchain was conceptualized in 2008 by an anonymous person or group known as Satoshi Nakamoto and implemented in 2009 as a core component of bitcoin where it serves as the public ledger for all transactions.[^1]
-  * A Peer-to-Peer Electronic Cash System [^3]
-
-
 * A blockchain, originally block chain, is a continuously growing list of records, called blocks, which are linked and secured using cryptography. Each block typically contains a hash pointer as a link to a previous block, a timestamp and transaction data.[^1]
-* 근본적으로 분산 데이터 저장기술의 한 형태로, 지속적으로 변경되는 데이터를 모든 참여 노드에 기록한 변경 리스트로서 분산 노드의 운영자에 의한 임의 조작이 불가능하도록 고안되었다. 잘 알려진 블록체인의 응용사례는 암호화폐의 거래과정을 기록하는 탈중앙화된 전자장부로서 비트코인이 있다. 이 거래 기록은 의무적으로 암호화되고 블록체인 소프트웨어를 실행하는 컴퓨터상에서 운영된다. 비트코인을 비롯한 대부분의 암호화폐들이 블록체인 기술 형태에 기반하고 있다[^2]
-* 관리 대상 데이터를 '블록'이라고 하는 소규모 데이터들이 P2P방식을 기반으로 생성된 체인 형태의 연결고리 기반 분산 데이터 저장환경에 저장되어 누구도 임의로 수정될 수 없고 누구나 변경의 결과를 열람할 수 있는 분산컴퓨팅 기술 기반의 데이터 위변조 방지 기술이다. 이는 근본적으로 분산 데이터 저장기술의 한 형태로, 지속적으로 변경되는 데이터를 모든 참여 노드에 기록한 변경 리스트로서 분산 노드의 운영자에 의한 임의 조작이 불가능하도록 고안되었다. [^5]
-* 가장 활발히 사용되는 Bitcoin: The world’s first completely decentralized digital currency.[^4]
+* The first blockchain was conceptualized in 2008 by an anonymous person or group known as Satoshi Nakamoto and implemented in 2009 as a core component of bitcoin where it serves as the public ledger for all transactions.[^1]
+  * A Peer-to-Peer Electronic Cash System [^2]
+* 근본적으로 분산 데이터 저장기술의 한 형태로, 지속적으로 변경되는 데이터를 모든 참여 노드에 기록한 변경 리스트로서 분산 노드의 운영자에 의한 임의 조작이 불가능하도록 고안되었다. 잘 알려진 블록체인의 응용사례는 암호화폐의 거래과정을 기록하는 탈중앙화된 전자장부로서 비트코인이 있다. 이 거래 기록은 의무적으로 암호화되고 블록체인 소프트웨어를 실행하는 컴퓨터상에서 운영된다. 비트코인을 비롯한 대부분의 암호화폐들이 블록체인 기술 형태에 기반하고 있다[^3]
+* 관리 대상 데이터를 '블록'이라고 하는 소규모 데이터들이 P2P방식을 기반으로 생성된 체인 형태의 연결고리 기반 분산 데이터 저장환경에 저장되어 누구도 임의로 수정될 수 없고 누구나 변경의 결과를 열람할 수 있는 분산컴퓨팅 기술 기반의 데이터 위변조 방지 기술이다. 이는 근본적으로 분산 데이터 저장기술의 한 형태로, 지속적으로 변경되는 데이터를 모든 참여 노드에 기록한 변경 리스트로서 분산 노드의 운영자에 의한 임의 조작이 불가능하도록 고안되었다. [^4]
+* 가장 활발히 사용되는 Bitcoin: The world’s first completely decentralized digital currency.[^5]
 
 ## Blockchain 코드 분석
 * Daniel van Flymen님의 [Github Code](https://github.com/dvf/blockchain){:target="_blank"}
-* 코드도 간격하고, 시험하기도 쉽습니다.
+* 코드도 간결하고, 시험하기도 쉽습니다.
 
 ### 사용하는 라이브러리
 * hash는 [hashlib](https://docs.python.org/3/library/hashlib.html){:target="_blank"} 사용 
@@ -67,7 +64,7 @@ class Blockchain:
         # Create the genesis block
         self.new_block(previous_hash='1', proof=100)
 ```
-  * 여기서 genesis block에 대한 그림 (출처)[https://en.wikipedia.org/wiki/Blockchain]{:target="_blank"}
+  * 여기서 genesis block에 대한 그림 [출처](https://en.wikipedia.org/wiki/Blockchain){:target="_blank"}
 ![Blocks]({{ site.url }}/wiki/img/blockchain.mmd.png?style=centerimg) 
 
 {:.image-caption}
@@ -394,10 +391,14 @@ if __name__ == '__main__':
   * 참고로 step 3에 가면 있습니다.
 
 
+## 마무리
+* 대충 어떤건지 이해했으니 책을 사서 읽어봐야겠습니다.
+
+
 ## 참조
 [^1]: [영문 위키백과](https://en.wikipedia.org/wiki/Blockchain){:target="_blank"}
-[^2]: [연합뉴스 삼성SDS, 블록체인 사업 본격 추진…자체 플랫폼 개발](http://news.naver.com/main/read.nhn?mode=LSD&mid=sec&sid1=101&oid=001&aid=0009167205){:target="_blank"}
-[^3]: [Bitcoin: A Peer-to-Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf){:target="_blank"} 사토시 나카모토 (2008)
-[^4]: [BITCOIN: A Primer for Policymakers](https://www.mercatus.org/system/files/Brito_BitcoinPrimer.pdf){:target="_blank"} 제리 브리토, 안드레아 카스트로(Jerry Brito and Andrea Castillo) (2013).
-[^5]: [한글 위키백과](https://ko.wikipedia.org/wiki/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8){:target="_blank"}
+[^2]: [Bitcoin: A Peer-to-Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf){:target="_blank"} 사토시 나카모토 (2008)
+[^3]: [연합뉴스 삼성SDS, 블록체인 사업 본격 추진…자체 플랫폼 개발](http://news.naver.com/main/read.nhn?mode=LSD&mid=sec&sid1=101&oid=001&aid=0009167205){:target="_blank"}
+[^4]: [한글 위키백과](https://ko.wikipedia.org/wiki/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8){:target="_blank"}
+[^5]: [BITCOIN: A Primer for Policymakers](https://www.mercatus.org/system/files/Brito_BitcoinPrimer.pdf){:target="_blank"} 제리 브리토, 안드레아 카스트로(Jerry Brito and Andrea Castillo) (2013).
 
