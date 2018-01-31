@@ -19,48 +19,48 @@ ThisBlog:
     parent: index
     url: /wiki/ThisBlog
     updated: '2018-01-15 14:46:17 +0900'
-2018-01-25-5G_NRF:
-    type: blog
-    title: '5G NRF'
-    summary: 'Network Function(NF) Repository Function(NRF)'
-    parent: null
-    url: /blog/2018/01/05/5G_NRF
-    updated: '2018-01-25 14:37:39 +0900'
 'Block Chain':
     type: wiki
     title: 'Block Chain'
     summary: 'Block Chain'
     parent: Concept
     url: '/wiki/Block Chain'
-    updated: '2018-01-26 11:36:54 +0900'
+    updated: '2018-01-26 11:39:42 +0900'
 Python:
     type: wiki
     title: Python
     summary: Python
     parent: programming-language
     url: /wiki/Python
-    updated: '2018-01-21 22:31:54 +0900'
+    updated: '2018-01-26 11:45:04 +0900'
 GDB:
     type: wiki
     title: GDB
     summary: GDB
     parent: Productivity
     url: /wiki/GDB
-    updated: '2018-01-15 14:38:49 +0900'
+    updated: '2018-01-26 11:41:33 +0900'
+HTTP2:
+    type: wiki
+    title: HTTP/2
+    summary: 'HTTP/2 Frequently Asked Questions'
+    parent: Concept
+    url: /wiki/HTTP2
+    updated: '2018-01-29 14:33:03 +0900'
 'Ichiro Suzuki':
     type: wiki
     title: 'Ichiro Suzuki'
     summary: 'Ichiro Suzuki'
     parent: professional
     url: '/wiki/Ichiro Suzuki'
-    updated: '2018-01-21 22:20:24 +0900'
+    updated: '2018-01-26 11:40:50 +0900'
 index:
     type: wiki
     title: '위키 목차'
     summary: null
     parent: null
     url: /wiki/index
-    updated: '2018-01-21 21:54:43 +0900'
+    updated: '2018-01-29 13:50:19 +0900'
 'Programming Language':
     type: wiki
     title: '프로그래밍 언어'
