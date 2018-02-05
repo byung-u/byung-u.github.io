@@ -11,7 +11,7 @@ concept:
 GDB:
     - {fileName: GDB, updated: '2018-01-26 11:41:33 +0900'}
 http/2:
-    - {fileName: HTTP2, updated: '2018-02-01 11:01:24 +0900'}
+    - {fileName: HTTP2, updated: '2018-02-05 14:54:36 +0900'}
 Ichiro:
     - {fileName: 'Ichiro Suzuki', updated: '2018-01-26 11:40:50 +0900'}
     - {fileName: 이치로_통계, updated: '2018-01-11 00:27:41 +0900'}
