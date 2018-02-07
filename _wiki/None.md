@@ -3,7 +3,7 @@ layout  : wiki
 title   : None
 summary : 
 date    : 2018-02-07 17:11:08 +0900
-updated : 2018-02-07 17:25:28 +0900
+updated : 2018-02-07 17:27:30 +0900
 tags    : None
 toc     : true
 public  : true
@@ -45,8 +45,7 @@ latex   : false
 	제가 설치했던 패키지는 6.2 였는데 6.0.20 이상의 버전은 라이센스 문제가 있어서 막아두었습니다.
 	하위 버전으로 [5.3을 다운로드](http://www.oracle.com/technetwork/database/database-technologies/berkeleydb/downloads/index-082944.html){:target="_blank"}해서 설치했습니다.
 	
-  * 해결방법 [링크](http://www.openldap.org/faq/data/cache/1113.html){:target="_blank"}
-	그냥 `./configure`로는 또 설치가 실패했고, 해결 방법을 참고해서 아래의 명령어로 설치했습니다.
+  *	`./configure`로는 또 설치가 실패했고, [해결 방법](http://www.openldap.org/faq/data/cache/1113.html){:target="_blank"}을 참고해서 아래의 명령어로 설치했습니다.
 	```shell
 	LD_LIBRARY_PATH="/usr/lib:/usr/local/lib:/usr/local/BerkeleyDB.5.3/lib:/usr/local/ssl/lib" LDFLAGS="-L/usr/local/lib -L/usr/local/BerkeleyDB.5.3/lib -L/usr/local/ssl/lib" CPPFLAGS="-I/usr/local/include -I/usr/local/BerkeleyDB.5.3/include -I/usr/local/ssl/include" ./configure --enable-bdb --enable-crypt --with-tls
 	```
