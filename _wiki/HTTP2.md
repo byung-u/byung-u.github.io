@@ -3,7 +3,7 @@ layout  : wiki
 title   : HTTP/2
 summary : HTTP/2 Frequently Asked Questions
 date    : 2018-01-29 13:50:57 +0900
-updated : 2018-02-05 14:54:36 +0900
+updated : 2018-02-05 16:48:48 +0900
 tags    : http/2
 toc     : true
 public  : true
@@ -50,7 +50,7 @@ IETF 참여에 대한 자세한 내용은 [IETF의 Tao](http://www6.ietf.org/tao
 
 ### SPDY와 무슨 관계입니까?
 HTTP/2는 .
-Mozilla 나 nginx 등의 implementer들이 HTTP/1.x에 상당히 개선시켜서 이끌고 나감에 의해서 [SPDY](https://en.wikipedia.org/wiki/SPDY){:target="_blank"}가 명백해졌고 이때 처음 HTTP/2가 논의 되었습니다.
+Mozilla 나 nginx 등의 implementer들이 HTTP/1.x에 상당히 개선시켜서 이끌고 나감에 의해서 [SPDY](https://www.chromium.org/spdy/spdy-whitepaper){:target="_blank"}가 명백해졌고 이때 처음 HTTP/2가 논의 되었습니다.
 
 제안서 제출과 선택의 과정을 거친 후, [SPDY/2](https://tools.ietf.org/html/draft-mbelshe-httpbis-spdy-00){:target="_blank"}가 HTTP/2의 기반으로 선정되었습니다. 이후 워킹 그룹 토론 및 implementer들의 의견에 따라 일부 변경이있었습니다.
 
