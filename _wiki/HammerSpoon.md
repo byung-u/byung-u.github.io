@@ -1,10 +1,10 @@
 ---
 layout  : wiki
-title   : hammerspoon
-summary : hammerspoon
+title   : Hammerspoon
+summary : Hammerspoon
 date    : 2018-02-12 19:03:14 +0900
-updated : 2018-02-12 19:24:38 +0900
-tags    : hammerspoon
+updated : 2018-02-12 19:39:20 +0900
+tags    : Hammerspoon
 toc     : true
 public  : true
 parent  : Productivity
@@ -38,7 +38,7 @@ latex   : false
   * 1초 사이사이에 겨우겨우 터미널 새로 열고 `reboot` 명령을 수행해서 끝냄
   * 무한 반복 작업 수행시 <span style="color:red">escape 로직 반드시 구현</span> 해야 합니다.
 
-* 구현한 코드
+* 구현한 방법
   * 구현은 [test_timer.lua](https://github.com/Hammerspoon/hammerspoon/blob/master/extensions/timer/test_timer.lua){:target="_blank"} 샘플 코드 참고했습니다.
   * `shift + option + K`는 수행 시작 
 	* 3초마다 수행
@@ -46,6 +46,11 @@ latex   : false
 	* 최대 3000번 수행하면 자동 종료 
   * `shift + option + L`는 수행 종료(escape)
     * 수행시 다음 주기에 종료 됨 (플래그 값 변경) 
+  * 구현을 다 한 후에는 `Reload config`를 수행해서 반영합니다.
+
+  ![HammerspoonConfig]({{ site.url }}/wiki/img/HammerspoonConfigReload.png?style=centerimg)
+
+* 구현한 코드
 
 ```lua
 hs.timer = require("hs.timer")

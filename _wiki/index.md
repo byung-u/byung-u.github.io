@@ -2,7 +2,7 @@
 layout  : wikiindex
 title   : 위키 목차
 date 	: 2018-01-03 16:14:23 +0900
-updated : 2018-02-12 19:02:52 +0900
+updated : 2018-02-12 19:39:26 +0900
 tags    : index
 toc     : true
 public  : true
@@ -24,7 +24,7 @@ comment : false
   * [[nghttp2]]
   * [[Mutt]]
   * [[Mermaid & imgcat]]
-  * [[HammerSpoon]]
+  * [[Hammerspoon]]
 * [[Professional]]{프로}
   * [[Ichiro Suzuki]]{イチロ}
 * [[None]]{짧아서 애매한 것들 모음}
