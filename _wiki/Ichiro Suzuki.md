@@ -3,7 +3,7 @@ layout  : wiki
 title   : Ichiro Suzuki
 summary : Ichiro Suzuki
 date    : 2018-01-06 22:29:03 +0900
-updated : 2018-01-26 11:40:50 +0900
+updated : 2018-02-08 00:16:50 +0900
 tags    : Ichiro Suzuki
 toc     : true
 public  : true
@@ -57,6 +57,11 @@ latex   : false
 
 ## 동영상
 * [이치로만의 독자적인 연습 방법](https://www.youtube.com/watch?v=ixjWjs5KBV0){:target="_blank"}
+* [이치로가 42세에도 현역으로 뛸 수 있는 방법](https://www.youtube.com/watch?v=DVSZk19Zaa8){:target="_blank"}
+  * 답변 한마디 한마디에 엄청난 내공이 뿜어져 나옵니다.
+* [이치로, 야구가 가르쳐 주는 것](https://www.youtube.com/watch?v=uvzzaLsSEzk){:target="_blank"}
+  * 혼자서는 안되.
+  * 사람 마음의 아픔을 잘 아는 착한 사람이 되어주세요.
 
 ## 기사와 명언
 * [까탈스런 이치로, 뜻밖의 수상소감 20171226](http://v.sports.media.daum.net/v/20171226081318884?f=m){:target="_blank"}
