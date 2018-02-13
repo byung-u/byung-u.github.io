@@ -42,11 +42,11 @@ GDB:
     updated: '2018-01-26 11:41:33 +0900'
 HammerSpoon:
     type: wiki
-    title: hammerspoon
-    summary: hammerspoon
+    title: Hammerspoon
+    summary: Hammerspoon
     parent: Productivity
     url: /wiki/HammerSpoon
-    updated: '2018-02-12 19:37:22 +0900'
+    updated: '2018-02-13 11:43:01 +0900'
 HTTP2:
     type: wiki
     title: HTTP/2
@@ -67,7 +67,7 @@ index:
     summary: null
     parent: null
     url: /wiki/index
-    updated: '2018-02-12 19:02:52 +0900'
+    updated: '2018-02-12 19:39:26 +0900'
 'Programming Language':
     type: wiki
     title: '프로그래밍 언어'
