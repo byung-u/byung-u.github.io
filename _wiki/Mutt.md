@@ -3,7 +3,7 @@ layout  : wiki
 title   : mutt로 Gmail 사용하기
 summary : Gmail with mutt
 date    : 2018-01-05 20:59:22 +0900
-updated : 2018-01-09 15:47:41 +0900
+updated : 2018-02-23 11:56:04 +0900
 tags    : mutt gmail
 toc     : true
 public  : true
@@ -80,3 +80,10 @@ brew install mutt
 * 요약하면 F2, F3키 `(키는 내가 정하기 나름)`로 계정을 스위칭해가면서 로그인하여 메일을 확인할 수 있습니다.
 * 써봤는데 그렇게 편하지는 않아서 다시 1개의 계정만 사용하고 있습니다.
 * 그래도 혹시나 궁금하실 수 있으니 [여기 링크](https://gist.github.com/miguelmota/9456162){:target="_blank"} 참고해서 설정을 따라서 하면 됩니다.
+
+## 설정을 다 맞췄는데도 안되는 상황
+* 구글의 `보안 수준이 낮은 앱 허용` 설정 확인
+![Gmail option]({{ site.url }}/wiki/img/gmail_option.png?style=centerimg)
+
+{:.image-caption}
+*Figure 2. Gmail Option Check*

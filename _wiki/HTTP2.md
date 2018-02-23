@@ -3,11 +3,11 @@ layout  : wiki
 title   : HTTP/2
 summary : HTTP/2 Frequently Asked Questions
 date    : 2018-01-29 13:50:57 +0900
-updated : 2018-02-05 16:48:48 +0900
+updated : 2018-02-20 11:30:55 +0900
 tags    : http/2
 toc     : true
 public  : true
-parent  : Concept
+parent  : HTTP
 latex   : false
 ---
 * TOC

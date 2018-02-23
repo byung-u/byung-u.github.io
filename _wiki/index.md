@@ -2,7 +2,7 @@
 layout  : wikiindex
 title   : 위키 목차
 date 	: 2018-01-03 16:14:23 +0900
-updated : 2018-02-12 19:39:26 +0900
+updated : 2018-02-20 11:27:33 +0900
 tags    : index
 toc     : true
 public  : true
@@ -14,7 +14,7 @@ comment : false
 * [[Concept]]{개념}
   * [[OOP]]{Object-Oriented Programming}
   * [[Block Chain]]{Block Chain}
-  * [[HTTP2]]{HTTP/2}
+  * [[HTTP]]{HTTP}
 * [[Programming Language]]{언어}
   * [[Lua]]
   * [[Perl]]
@@ -27,4 +27,5 @@ comment : false
   * [[Hammerspoon]]
 * [[Professional]]{프로}
   * [[Ichiro Suzuki]]{イチロ}
+* [[Mobile Telecomunication]]
 * [[None]]{짧아서 애매한 것들 모음}
