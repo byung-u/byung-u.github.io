@@ -3,7 +3,7 @@ layout  : wiki
 title   : mutt로 Gmail 사용하기
 summary : Gmail with mutt
 date    : 2018-01-05 20:59:22 +0900
-updated : 2018-02-23 11:56:04 +0900
+updated : 2018-02-23 11:57:35 +0900
 tags    : mutt gmail
 toc     : true
 public  : true
@@ -83,6 +83,7 @@ brew install mutt
 
 ## 설정을 다 맞췄는데도 안되는 상황
 * 구글의 `보안 수준이 낮은 앱 허용` 설정 확인
+* 접속 링크 [https://myaccount.google.com/lesssecureapps](https://myaccount.google.com/lesssecureapps){:target="_blank"}
 ![Gmail option]({{ site.url }}/wiki/img/gmail_option.png?style=centerimg)
 
 {:.image-caption}
