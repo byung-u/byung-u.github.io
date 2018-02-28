@@ -1,14 +1,13 @@
 ---
-layout  : wiki
-title   : None
-summary : 
+layout  : post
+title   : LDAP 설치 실패 (Fedora)
+summary : LDAP 설치 실패 (Fedora)
 date    : 2018-02-07 17:11:08 +0900
-updated : 2018-02-07 17:27:30 +0900
-tags    : None
+updated : 2018-02-28 16:40:19 +0900
 toc     : true
+tags    : ldap
+comment : true
 public  : true
-parent  : index
-latex   : false
 ---
 * TOC
 {:toc}
