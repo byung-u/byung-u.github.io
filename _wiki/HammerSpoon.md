@@ -1,10 +1,10 @@
 ---
 layout  : wiki
-title   : Hammerspoon
-summary : Hammerspoon
+title   : HammerSpoon
+summary : HammerSpoon
 date    : 2018-02-12 19:03:14 +0900
-updated : 2018-02-13 11:58:34 +0900
-tags    : Hammerspoon
+updated : 2018-03-06 16:58:48 +0900
+tags    : HammerSpoon
 toc     : true
 public  : true
 parent  : Productivity
