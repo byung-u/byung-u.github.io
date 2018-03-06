@@ -1,10 +1,10 @@
-'Mermaid & imgcat':
+Lua:
     type: wiki
-    title: 'Mermaid & imgcat'
-    summary: 'Mermaid & imgcat'
-    parent: Productivity
-    url: '/wiki/Mermaid & imgcat'
-    updated: '2018-01-09 15:47:31 +0900'
+    title: Lua
+    summary: 'Powerful, efficient, lightweight, embeddable scripting language'
+    parent: programming-language
+    url: /wiki/Lua
+    updated: '2018-01-09 11:15:24 +0900'
 이치로_통계:
     type: wiki
     title: 'Ichiro baseball statistics'
@@ -19,6 +19,20 @@ ThisBlog:
     parent: index
     url: /wiki/ThisBlog
     updated: '2018-01-15 14:46:17 +0900'
+2018-02-07-ldap_install_failed:
+    type: blog
+    title: 'LDAP 설치 실패 (Fedora)'
+    summary: 'LDAP 설치 실패 (Fedora)'
+    parent: null
+    url: /blog/2018/02/07/ldap_install_failed
+    updated: '2018-02-28 16:40:19 +0900'
+2018-03-05-python_interview_question:
+    type: blog
+    title: 'Python Interview 문제 확인'
+    summary: 'Python Interview'
+    parent: null
+    url: /blog/2018/03/05/python_interview_question
+    updated: '2018-03-05 11:16:11 +0900'
 'Block Chain':
     type: wiki
     title: 'Block Chain'
@@ -32,7 +46,7 @@ Python:
     summary: Python
     parent: programming-language
     url: /wiki/Python
-    updated: '2018-01-26 11:45:04 +0900'
+    updated: '2018-03-05 11:19:55 +0900'
 GDB:
     type: wiki
     title: GDB
@@ -40,6 +54,13 @@ GDB:
     parent: Productivity
     url: /wiki/GDB
     updated: '2018-01-26 11:41:33 +0900'
+Generators:
+    type: wiki
+    title: 'Python Generator'
+    summary: 'Python Generator'
+    parent: Python
+    url: /wiki/Generators
+    updated: '2018-03-05 12:00:12 +0900'
 HammerSpoon:
     type: wiki
     title: Hammerspoon
@@ -77,18 +98,18 @@ HTTP2:
     updated: '2018-02-20 11:30:55 +0900'
 'Ichiro Suzuki':
     type: wiki
-    title: 'Ichiro Suzuki'
-    summary: 'Ichiro Suzuki'
-    parent: professional
+    title: null
+    summary: null
+    parent: null
     url: '/wiki/Ichiro Suzuki'
-    updated: '2018-02-08 00:16:50 +0900'
+    updated: null
 index:
     type: wiki
     title: '위키 목차'
     summary: null
     parent: null
     url: /wiki/index
-    updated: '2018-02-20 11:27:33 +0900'
+    updated: '2018-03-05 11:17:02 +0900'
 'Programming Language':
     type: wiki
     title: '프로그래밍 언어'
@@ -96,6 +117,13 @@ index:
     parent: index
     url: '/wiki/Programming Language'
     updated: '2018-01-21 22:24:30 +0900'
+mapo:
+    type: wiki
+    title: '2030서울도시기본계획 문서로 바라본 마포'
+    summary: '2030서울도시기본계획 문서로 바라본 마포'
+    parent: index
+    url: /wiki/mapo
+    updated: '2018-02-28 17:14:00 +0900'
 Professional:
     type: wiki
     title: 프로페셔날
@@ -116,7 +144,7 @@ Mutt:
     summary: 'Gmail with mutt'
     parent: Productivity
     url: /wiki/Mutt
-    updated: '2018-02-23 11:55:04 +0900'
+    updated: '2018-02-23 11:57:35 +0900'
 nghttp2:
     type: wiki
     title: nghttp2
@@ -124,20 +152,13 @@ nghttp2:
     parent: Productivity
     url: /wiki/nghttp2
     updated: '2018-02-05 15:40:36 +0900'
-None:
+Portfolio:
     type: wiki
-    title: None
-    summary: ""
+    title: 포트폴리오
+    summary: 포트폴리오
     parent: index
-    url: /wiki/None
-    updated: '2018-02-07 17:27:30 +0900'
-Pomnyun:
-    type: wiki
-    title: Pomnyun
-    summary: Pomnyun
-    parent: professional
-    url: /wiki/Pomnyun
-    updated: '2018-01-15 22:52:23 +0900'
+    url: /wiki/Portfolio
+    updated: '2018-02-28 22:39:18 +0900'
 Perl:
     type: wiki
     title: Perl
@@ -145,6 +166,13 @@ Perl:
     parent: programming-language
     url: /wiki/Perl
     updated: '2018-01-16 11:18:42 +0900'
+Pomnyun:
+    type: wiki
+    title: Pomnyun
+    summary: Pomnyun
+    parent: professional
+    url: /wiki/Pomnyun
+    updated: '2018-01-15 22:52:23 +0900'
 2018-01-05-communication-procedure-abbreviation:
     type: blog
     title: '이동통신관련 약어 모음'
@@ -152,13 +180,13 @@ Perl:
     parent: null
     url: /blog/2018/01/05/communication-procedure-abbreviation
     updated: '2018-01-10 13:57:48 +0900'
-Lua:
+'Mermaid & imgcat':
     type: wiki
-    title: Lua
-    summary: 'Powerful, efficient, lightweight, embeddable scripting language'
-    parent: programming-language
-    url: /wiki/Lua
-    updated: '2018-01-09 11:15:24 +0900'
+    title: 'Mermaid & imgcat'
+    summary: 'Mermaid & imgcat'
+    parent: Productivity
+    url: '/wiki/Mermaid & imgcat'
+    updated: '2018-01-09 15:47:31 +0900'
 OOP:
     type: wiki
     title: OOP
