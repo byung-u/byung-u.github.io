@@ -3,7 +3,7 @@ layout  : wiki
 title   : Python
 summary : Python
 date    : 2018-01-16 11:18:37 +0900
-updated : 2018-01-26 11:45:04 +0900
+updated : 2018-03-05 11:19:55 +0900
 tags    : language python
 toc     : true
 public  : true
@@ -16,6 +16,9 @@ latex   : false
 ## 개요
 * [Guido van Rossum](https://gvanrossum.github.io/){:target="_blank"}
 * 많이들 아는 언어라서 기본적인 것은 패스
+
+## 파이썬 개념
+### [[Generators]]
 
 ## 파이썬 라이브러리
 

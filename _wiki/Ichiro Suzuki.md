@@ -1,12 +1,3 @@
----
-layout  : wiki
-title   : Ichiro Suzuki
-summary : Ichiro Suzuki
-date    : 2018-01-06 22:29:03 +0900
-updated : 2018-02-08 00:16:50 +0900
-tags    : Ichiro Suzuki
-toc     : true
-public  : true
 parent  : professional
 latex   : false
 ---
