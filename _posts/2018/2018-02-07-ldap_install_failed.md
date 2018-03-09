@@ -1,9 +1,9 @@
 ---
 layout  : post
-title   : LDAP 설치 실패 (Fedora)
-summary : LDAP 설치 실패 (Fedora)
+title   : LDAP 설치 실패
+summary : Fedora 24
 date    : 2018-02-07 17:11:08 +0900
-updated : 2018-02-28 16:40:19 +0900
+updated : 2018-03-09 15:21:38 +0900
 toc     : true
 tags    : ldap
 comment : true
