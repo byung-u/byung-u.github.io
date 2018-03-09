@@ -33,6 +33,13 @@ ThisBlog:
     parent: null
     url: /blog/2018/03/05/python_interview_question
     updated: '2018-03-05 15:22:34 +0900'
+asyncio:
+    type: wiki
+    title: 'Python asyncio'
+    summary: 'Python asyncio'
+    parent: Python
+    url: /wiki/asyncio
+    updated: '2018-03-09 14:50:37 +0900'
 'Block Chain':
     type: wiki
     title: 'Block Chain'
@@ -46,7 +53,7 @@ Python:
     summary: Python
     parent: programming-language
     url: /wiki/Python
-    updated: '2018-03-05 11:19:55 +0900'
+    updated: '2018-03-09 14:50:54 +0900'
 GDB:
     type: wiki
     title: GDB
@@ -60,7 +67,7 @@ Generators:
     summary: 'Python Generator'
     parent: Python
     url: /wiki/Generators
-    updated: '2018-03-09 14:38:55 +0900'
+    updated: '2018-03-09 14:52:36 +0900'
 HammerSpoon:
     type: wiki
     title: HammerSpoon
@@ -109,7 +116,7 @@ index:
     summary: null
     parent: null
     url: /wiki/index
-    updated: '2018-03-09 11:56:46 +0900'
+    updated: '2018-03-09 14:53:40 +0900'
 'Programming Language':
     type: wiki
     title: '프로그래밍 언어'
@@ -173,6 +180,13 @@ Perl:
     parent: programming-language
     url: /wiki/Perl
     updated: '2018-01-16 11:18:42 +0900'
+pickle:
+    type: wiki
+    title: 'Python pickle'
+    summary: 'Python pickle'
+    parent: Python
+    url: /wiki/pickle
+    updated: '2018-03-09 14:51:01 +0900'
 Pomnyun:
     type: wiki
     title: Pomnyun

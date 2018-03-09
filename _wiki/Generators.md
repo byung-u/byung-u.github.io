@@ -3,7 +3,7 @@ layout  : wiki
 title   : Python Generator
 summary : Python Generator
 date    : 2018-03-03 10:09:51 +0900
-updated : 2018-03-09 14:41:34 +0900
+updated : 2018-03-09 14:52:36 +0900
 tags    : Generator
 toc     : true
 public  : true
@@ -38,7 +38,8 @@ latex   : false
 	and raise a StopIteration exception when no more elements are available. [^2]
   * `iterator`는 `next`를 수행하는 하나의 오브젝트입니다. <br />
     `next`는 다음 elements를 리턴해주고, 다음 element가 없으면 `StopIteration` 처리합니다.
-  * [Dictionary Iterators](https://www.python.org/dev/peps/pep-0234/#dictionary-iterators){:target="_blank"}
+	
+#### [Dictionary Iterators](https://www.python.org/dev/peps/pep-0234/#dictionary-iterators){:target="_blank"}
   
 ```python
 if k in dict: ...
@@ -67,7 +68,7 @@ for value in dict.itervalues(): ...
 for key, value in dict.iteritems(): ...
 ```
 
-  * [File iterators](https://www.python.org/dev/peps/pep-0234/#file-iterators){:target="_blank"}
+#### [File iterators](https://www.python.org/dev/peps/pep-0234/#file-iterators){:target="_blank"}
 
 ``` python
 Files implement a tp_iter slot that is equivalent to iter(f.readline, ""). This means that we can write
