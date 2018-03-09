@@ -2,8 +2,8 @@
 layout  : wiki
 title   : Python Generator
 summary : Python Generator
-date    : 2018-01-16 11:18:37 +0900
-updated : 2018-03-09 14:38:55 +0900
+date    : 2018-03-03 10:09:51 +0900
+updated : 2018-03-09 14:41:34 +0900
 tags    : Generator
 toc     : true
 public  : true
@@ -14,9 +14,7 @@ latex   : false
 {:toc}
 
 ## 개요
-  * Generator functions allow you to declare a function that behaves like an iterator, i.e. it can be used in a for loop.[^1]
-  * 제너레이터 함수를 사용하면 iterator(반복자) 처럼 동작하는 함수를 선언할 수 있습니다.
-  * 메모리 절약
+  * 메모리 절약의 장점
   <pre>
   Project Euler 문제를 풀다보면 prime sieve를 해서 1 ~ n 미만인 소수에서 
   특정 연산을 수행하는 경우가 잦았습니다.
@@ -30,6 +28,8 @@ latex   : false
   호출할 때마다 갱신된 겂을 yield로 반환해줘서 
   효과적으로 처리할 수 있었습니다.
   </pre>
+  * 제너레이터 함수를 사용하면 iterator(반복자) 처럼 동작하는 함수를 선언할 수 있습니다.
+  * Generator functions allow you to declare a function that behaves like an iterator, i.e. it can be used in a for loop.[^1]
 
 ### Iterator [^3]
   * An iterable object is an object that implements `__iter__. __iter__` is expected to return an iterator object. [^2]
