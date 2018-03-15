@@ -2,7 +2,7 @@
 layout  : wikiindex
 title   : 위키 목차
 date 	: 2018-01-03 16:14:23 +0900 
-updated : 2018-03-12 15:09:12 +0900
+updated : 2018-03-15 11:28:21 +0900
 tags    : index
 toc     : true
 public  : true
@@ -26,6 +26,7 @@ comment : false
   * [[Mutt]]
   * [[Mermaid & imgcat]]
   * [[HammerSpoon]]
+  * [[SSH]]
 * [[Professional]]{프로}
   * [[Ichiro Suzuki]]{イチロ}
 * [[Mobile Telecomunication]]
