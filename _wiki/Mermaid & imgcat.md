@@ -3,7 +3,7 @@ layout  : wiki
 title   : Mermaid & imgcat
 summary : Mermaid & imgcat
 date    : 2018-01-05 20:59:22 +0900
-updated : 2018-01-09 15:47:31 +0900
+updated : 2018-03-21 14:29:21 +0900
 tags    : mermaid imgcat
 toc     : true
 public  : true
@@ -74,7 +74,7 @@ sequenceDiagram
 You had errors in your syntax. Use --help for further information.
 Could not find phantomjs at the specified path.
   ```
-  * 옵션을 찾아보니 방법이 있어서 옵션 추가해서 동작 성공했습니다.
+  * 옵션을 찾아보니 방법이 있어서 `-e /usr/local/bin/phantomjs` 옵션 추가해서 동작 성공했습니다.
   ```
 % mermaid -e /usr/local/bin/phantomjs -p proxy_timer_c.mmd
   ```
