@@ -3,18 +3,20 @@ body {
     height: 100%;
 }
 body, th, td, div, p, li {
-	font-family: "Open Sans", arial, "Apple SD Gothic Neo", "Noto Sans CJK KR", 본고딕, "KoPubDotum Medium", 나눔바른고딕, 나눔고딕, NanumGothic, 맑은고딕, "Malgun Gothic", sans-serif;
+    font-family: "Open Sans", arial, "Apple SD Gothic Neo", "Noto Sans CJK KR", 본고딕, "KoPubDotum Medium", 나눔바른고딕, 나눔고딕, NanumGothic, 맑은고딕, "Malgun Gothic", sans-serif;
     font-size: 0.9rem;
     line-height: 1.5;
-	color: $default-font-color;
+    word-break: break-all;
 }
 
+a:link {
+}
 a:visited {
-	color: #344B83;
+    color: #344B83;
 }
 
 .post-content {
-	line-height: 2;
+    line-height: 2;
 }
 
 blockquote {
@@ -22,10 +24,10 @@ blockquote {
     margin:0;
     padding: 5px 20px;
     border-left: 10px solid #CCCCCC;
-	p {
-		line-height: 2;
-		color: $second-font-color;
-	}
+    p {
+        line-height: 2;
+        color: $second-font-color;
+    }
 }
 code,pre {
     font-family:  $coding-font;
@@ -63,47 +65,38 @@ pre code {
 }
 
 h1,h2,h3,h4,h5,h6{
-    font-weight: bold;
-    font-style: normal;
+    font-weight: normal;
 }
 
 h1 {
     font-size: 2.2rem;
     margin: 0px;
 }
+.post-content h1 {
+    border-bottom: 1px solid $theme-color;
+}
 h2 {
     font-size: 1.8em;
-    border-bottom: 1px solid $forth-font-color;
+    border-bottom: 1px solid #d0d0d0;
 }
 h3 {
     font-size: 1.6em;
     padding-left: 10px;
-	font-style: oblique;
+    font-style: italic;
 }
 h4 {
     font-size: 1.4em;
     padding-left: 20px;
-	font-style: oblique;
+    font-style: italic;
 }
 h5 {
     font-size: 1.2em;
     padding-left: 30px;
-	font-style: oblique;
+    font-style: italic;
 }
 h6 {
     font-size: 1.0em;
     padding-left: 40px;
     font-weight: bold;
-	font-style: oblique;
-}
-
-img[src$="centerimg"] {
-  display:block;
-  margin: 0 auto;
-}
-
-.image-caption {
-  text-align: center;
-  font-size: .8rem;
-  color: light-grey;
+    font-style: italic;
 }
