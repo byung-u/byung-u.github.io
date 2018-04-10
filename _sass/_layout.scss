@@ -5,12 +5,13 @@
     .wrapper {
     }
 }
+
 @media (min-width: 800px) {
-    body {
-		width: 800px;
-		margin: auto;
-		border: 1px solid #d0d0d0;
-    }
+  body {
+    width: 800px;
+    margin: auto;
+    border: 1px solid #d0d0d0;
+  }
 }
 
 div.gsc-control-cse {
@@ -64,6 +65,7 @@ table.gsc-search-box {
 
 .page-content {
     background:#FAFAFA;
+    // padding: 30px 0;
 
     img {
         max-width:100%;
@@ -102,7 +104,7 @@ table.gsc-search-box {
 }
 .post-tag a {
     color: #888888;
-	text-decoration: none;
+    text-decoration: none;
 }
 @media (max-width: 1120px) {
     .page-content .wrapper:before {

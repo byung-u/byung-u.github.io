@@ -1,4 +1,10 @@
-/* Based on Monokai Theme, https://github.com/richleland/pygments-css/blob/master/monokai.css */
+/* based on Monokai Theme, https://github.com/richleland/pygments-css/blob/master/monokai.css */
+code {
+    font-family: Consolas, "Courier New", Courier;
+    a {
+        color: #d0d0d0
+    }
+}
 .highlight {
     .hll { background-color: #49483e }
     .c { color: #75715e } /* Comment */
@@ -15,7 +21,7 @@
     .ge { font-style: italic } /* Generic.Emph */
     .gs { font-weight: bold } /* Generic.Strong */
     .kc { color: #66d9ef } /* Keyword.Constant */
-    .kd { color: #66d9ef } /* Keyword.Declaration */
+    .kd { color: #00d0a5 } /* Keyword.Declaration */
     .kn { color: #f92672 } /* Keyword.Namespace */
     .kp { color: #66d9ef } /* Keyword.Pseudo */
     .kr { color: #66d9ef } /* Keyword.Reserved */
