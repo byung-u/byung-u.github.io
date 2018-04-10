@@ -5,3 +5,4 @@ BACKUP
 
 start.sh
 mmd/
+/node_modules
