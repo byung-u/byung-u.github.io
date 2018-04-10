@@ -1,4 +1,5 @@
 - asyncio
+- aws
 - back
 - balancehero
 - blockchain
@@ -33,6 +34,7 @@
 - monk
 - mutt
 - myself
+- network
 - nghttp2
 - oop
 - options

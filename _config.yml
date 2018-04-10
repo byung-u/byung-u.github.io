@@ -23,6 +23,7 @@ permalink: /blog/:year/:month/:day/:title/
 
 markdown: kramdown
 highlighter: rouge
+excerpt_separator: "\n\n"
 kramdown:
   input: GFM
   syntax_highlighter: rouge
