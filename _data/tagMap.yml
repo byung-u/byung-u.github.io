@@ -27,10 +27,8 @@ concept:
     - {fileName: Concept, updated: '2018-01-09 11:14:08 +0900'}
 devops:
     - {fileName: DevOps, updated: '2018-04-09 14:15:27 +0900'}
-    - {fileName: Infra, updated: '2018-04-10 15:32:24 +0900'}
 ci/cd:
     - {fileName: DevOps, updated: '2018-04-09 14:15:27 +0900'}
-    - {fileName: Infra, updated: '2018-04-10 15:32:24 +0900'}
 GDB:
     - {fileName: GDB, updated: '2018-01-26 11:41:33 +0900'}
 Generator:
@@ -62,6 +60,8 @@ http/2:
     - {fileName: HTTP2, updated: '2018-02-20 11:30:55 +0900'}
 index:
     - {fileName: index, updated: '2018-04-10 15:32:27 +0900'}
+ip:
+    - {fileName: IpAddress, updated: '2018-04-10 17:15:05 +0900'}
 ssh:
     - {fileName: LoginWithoutPassword, updated: '2018-03-15 15:10:12 +0900'}
     - {fileName: SSH, updated: '2018-03-15 15:09:39 +0900'}
@@ -90,7 +90,7 @@ mutt:
 gmail:
     - {fileName: Mutt, updated: '2018-02-23 11:57:35 +0900'}
 network:
-    - {fileName: Network, updated: '2018-04-10 15:33:31 +0900'}
+    - {fileName: Network, updated: '2018-04-10 17:05:10 +0900'}
 nghttp2:
     - {fileName: nghttp2, updated: '2018-02-05 15:40:36 +0900'}
 oop:
@@ -112,6 +112,8 @@ professional:
     - {fileName: Professional, updated: '2018-01-21 22:24:07 +0900'}
 sports:
     - {fileName: SportsStar, updated: '2018-01-07 16:05:48 +0900'}
+subnet:
+    - {fileName: Subnet, updated: '2018-04-10 17:02:59 +0900'}
 vimwiki:
     - {fileName: ThisBlog, updated: '2018-01-15 14:46:17 +0900'}
 johngrib:
