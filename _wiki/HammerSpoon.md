@@ -3,7 +3,7 @@ layout  : wiki
 title   : HammerSpoon
 summary : HammerSpoon
 date    : 2018-02-12 19:03:14 +0900
-updated : 2018-03-06 16:58:48 +0900
+updated : 2018-05-02 10:45:28 +0900
 tags    : HammerSpoon
 toc     : true
 public  : true
@@ -28,7 +28,7 @@ latex   : false
 * 압축을 풀고 응용프로그램(Application) 폴더에 옮기면 끝입니다.
 
 ## 설정
-* 설정하려고 찾아보니 이미 [기계인간님의 블로그](https://johngrib.github.io/blog/2017/07/31/hammerspoon-tutorial-00-start/#%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%84%A4%EC%A0%95){:target="_blank"}가 존재합니다.
+* 설정하려고 찾아보니 이미 [기계인간님의 위키](https://johngrib.github.io/wiki/hammerspoon/){:target="_blank"}가 존재합니다.
 * 기본 동작을 위한 `init.lua` 설정도 기계인간님의 블로그를 보시면 됩니다.
 
 ## 마우스 반복 클릭
