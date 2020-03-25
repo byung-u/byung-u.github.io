@@ -3,7 +3,7 @@ layout  : wiki
 title   : 편의성이 좋은 유틸
 summary : 
 date	: 2018-01-04 16:32:07 +0900
-updated : 2018-03-06 16:57:33 +0900
+updated : 2020-03-25 11:51:22 +0900
 tags    : programming language
 toc     : true
 public  : true
@@ -17,3 +17,6 @@ latex   : false
 * [[Mutt]]
 * [[Mermaid & imgcat]]
 * [[Hammerspoon]]
+* [[GDB]]
+* [[nghttp2]]
+* [[SSH]]
