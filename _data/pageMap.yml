@@ -165,7 +165,7 @@ index:
     summary: null
     parent: null
     url: /wiki/index
-    updated: '2020-03-25 11:51:34 +0900'
+    updated: '2020-03-25 19:18:29 +0900'
 IpAddress:
     type: wiki
     title: 'IP Address'
@@ -179,7 +179,7 @@ Kerberos:
     summary: Kerberos
     parent: Setup
     url: /wiki/Kerberos
-    updated: '2020-03-25 11:53:49 +0900'
+    updated: '2020-03-25 18:46:37 +0900'
 LoginWithoutPassword:
     type: wiki
     title: 'Logint SSH without password'
@@ -194,13 +194,6 @@ Lua:
     parent: programming-language
     url: /wiki/Lua
     updated: '2018-01-09 11:15:24 +0900'
-mapo:
-    type: wiki
-    title: '2030서울도시기본계획 문서로 바라본 마포'
-    summary: '2030서울도시기본계획 문서로 바라본 마포'
-    parent: index
-    url: /wiki/mapo
-    updated: '2018-02-28 17:14:00 +0900'
 memo:
     type: wiki
     title: Memo
@@ -278,13 +271,6 @@ Pomnyun:
     parent: professional
     url: /wiki/Pomnyun
     updated: '2018-01-15 22:52:23 +0900'
-Portfolio:
-    type: wiki
-    title: 포트폴리오
-    summary: 포트폴리오
-    parent: index
-    url: /wiki/Portfolio
-    updated: '2018-02-28 22:39:18 +0900'
 Productivity:
     type: wiki
     title: '편의성이 좋은 유틸'
@@ -319,7 +305,7 @@ Setup:
     summary: ""
     parent: index
     url: /wiki/Setup
-    updated: '2020-03-25 14:20:15 +0900'
+    updated: '2020-03-25 19:18:46 +0900'
 SportsStar:
     type: wiki
     title: '철학을 가진 프로선수들'
@@ -361,11 +347,4 @@ VNC:
     summary: VNC
     parent: Setup
     url: /wiki/VNC
-    updated: '2020-03-25 14:19:21 +0900'
-'Working History':
-    type: wiki
-    title: 이력
-    summary: '일하면서 기록해야할 것들 저장'
-    parent: index
-    url: '/wiki/Working History'
-    updated: '2019-03-15 13:38:51 +0900'
+    updated: '2020-03-25 19:19:10 +0900'

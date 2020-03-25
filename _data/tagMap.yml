@@ -67,11 +67,11 @@ https:
 http/2:
     - {fileName: HTTP2, updated: '2018-02-20 11:30:55 +0900'}
 index:
-    - {fileName: index, updated: '2020-03-25 11:51:34 +0900'}
+    - {fileName: index, updated: '2020-03-25 19:18:29 +0900'}
 ip:
     - {fileName: IpAddress, updated: '2018-04-11 17:46:18 +0900'}
 Kerberos:
-    - {fileName: Kerberos, updated: '2020-03-25 11:53:49 +0900'}
+    - {fileName: Kerberos, updated: '2020-03-25 18:46:37 +0900'}
 ssh:
     - {fileName: LoginWithoutPassword, updated: '2018-03-15 15:10:12 +0900'}
     - {fileName: SSH, updated: '2018-03-15 15:09:39 +0900'}
@@ -83,8 +83,6 @@ language:
     - {fileName: Python, updated: '2018-03-12 16:25:36 +0900'}
 lua:
     - {fileName: Lua, updated: '2018-01-09 11:15:24 +0900'}
-mapo:
-    - {fileName: mapo, updated: '2018-02-28 17:14:00 +0900'}
 memo:
     - {fileName: memo, updated: '2018-03-09 13:02:44 +0900'}
 mermaid:
@@ -115,15 +113,15 @@ Pomnyun:
     - {fileName: Pomnyun, updated: '2018-01-15 22:52:23 +0900'}
 monk:
     - {fileName: Pomnyun, updated: '2018-01-15 22:52:23 +0900'}
-myself:
-    - {fileName: Portfolio, updated: '2018-02-28 22:39:18 +0900'}
 programming:
     - {fileName: Productivity, updated: '2020-03-25 11:51:22 +0900'}
     - {fileName: 'Programming Language', updated: '2018-01-21 22:24:30 +0900'}
 professional:
     - {fileName: Professional, updated: '2018-01-21 22:24:07 +0900'}
-setup:
-    - {fileName: Setup, updated: '2020-03-25 14:20:15 +0900'}
+'setup,':
+    - {fileName: Setup, updated: '2020-03-25 19:18:46 +0900'}
+system:
+    - {fileName: Setup, updated: '2020-03-25 19:18:46 +0900'}
 sports:
     - {fileName: SportsStar, updated: '2018-01-07 16:05:48 +0900'}
 subnet:
@@ -134,9 +132,9 @@ vimwiki:
     - {fileName: ThisBlog, updated: '2018-01-15 14:46:17 +0900'}
 johngrib:
     - {fileName: ThisBlog, updated: '2018-01-15 14:46:17 +0900'}
-VNC:
-    - {fileName: VNC, updated: '2020-03-25 14:19:21 +0900'}
-working:
-    - {fileName: 'Working History', updated: '2019-03-15 13:38:51 +0900'}
-history:
-    - {fileName: 'Working History', updated: '2019-03-15 13:38:51 +0900'}
+'vnc,':
+    - {fileName: VNC, updated: '2020-03-25 19:19:10 +0900'}
+graphical:
+    - {fileName: VNC, updated: '2020-03-25 19:19:10 +0900'}
+desktop-sharing:
+    - {fileName: VNC, updated: '2020-03-25 19:19:10 +0900'}
