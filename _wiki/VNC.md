@@ -3,8 +3,8 @@ layout  : wiki
 title   : VNC
 summary : VNC
 date    : 2020-03-25 11:53:37 +0900
-updated : 2020-03-25 19:10:45 +0900
-tags    : VNC
+updated : 2020-03-25 19:19:10 +0900
+tags    : vnc, graphical desktop-sharing
 toc     : true
 public  : true
 parent  : Setup
